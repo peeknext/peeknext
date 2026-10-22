@@ -21,16 +21,25 @@
 [license]
 
 -- Peeknext is free for non-commercial use.
--- For commercial use, purchase a license at:
--- https://peeknext.com/#pricing
+-- For commercial use, purchase a license: https://peeknext.com/pricing/
 
 path_to_license_file                -- path to license file, /path/to/license.json
 
 
 [editor]
 
--- Use any installed font or add fonts to ~/Library/Application Support/Peeknext/fonts
--- See built-in themes: https://peeknext.com/docs/#appearance
+-- Fonts: Use any installed font, or add fonts to:
+-- ~/Library/Application Support/Peeknext/fonts
+--
+-- Bundled themes:
+-- peeknext-dark,       peeknext-light,         peeknext-mono,
+-- peeknext-contrast,   peeknext-midnight,      peeknext-paper,
+-- sublime-monokai,     github-dark-dimmed,     github-light,
+-- one-dark-pro,        catppuccin-mocha,       tokyo-night,
+-- gruvbox-dark,        solarized-light,        ayu-mirage
+--
+-- Additional themes: https://github.com/peeknext/peeknext/tree/main/themes
+-- Install themes in ~/Library/Application Support/Peeknext/themes
 
 font                                SF Mono
 font_weight                         -- light, normal, medium, bold, leave empty for default: normal on light mode and light on dark mode.
@@ -39,8 +48,8 @@ font_size                           14
 line_extra_height                   2
 tab_width                           4
 
-theme                               adaptive
-adaptive_theme                      koi, koi-dark -- set theme to "adaptive" to use
+theme                               peeknext-dark
+adaptive_theme                      peeknext-light, peeknext-dark -- set theme to "adaptive" to use
 
 auto_indent                         true
 auto_complete                       true
@@ -140,18 +149,27 @@ path_to_scripts_file                -- path to external scripts file, requires r
 -- fixed_line_number_width             false
 -- path_to_shell                       /bin/zsh -- not in use
 
-
 [models]
 
--- requires Ollama
+-- Optional AI features powered by Ollama.
+-- Set a model name to enable code completion or inline chat.
+-- Models can run locally or through Ollama Cloud.
+--
+-- Code completion: https://peeknext.com/docs/#code-completion
+-- Inline chat: https://peeknext.com/docs/#inline-chat
 
 -- code_completion                     qwen2.5-coder:1.5b
--- inline_chat                         gpt-oss:120b-cloud
-
+-- inline_chat                         glm-5.3-flash:cloud
 
 [keybinds]
 
--- Important: Use Comma, Period, Plus, Minus for symbols , . + -
+-- Customize keyboard shortcuts by assigning key combinations to commands.
+-- Use Cmd, Ctrl, Alt, and Shift as modifiers, joined with +.
+-- Use Comma, Period, Plus, and Minus for the symbols , . + -
+-- Leave a binding empty to disable its shortcut.
+--
+-- Editor commands: https://peeknext.com/docs/#editor-commands
+-- Default keybindings: https://github.com/peeknext/peeknext/blob/main/.hackerman
 
 new_file                            Cmd + N
 new_window                          Cmd + Shift + N
@@ -397,9 +415,10 @@ extend_to_buffer_9
 
 [user]
 
--- Add custom functions here and assign key bindings.
--- API documentation:
--- https://peeknext.com/api/
+-- Assign keyboard shortcuts to custom Python functions.
+-- Define functions in the scripts file and bind them here.
+--
+-- API reference: https://peeknext.com/api/
 
 -- word_count                       Cmd + J
 
@@ -447,31 +466,33 @@ extend_to_buffer_9
 -- #9ECEF5, #9ECEF5             (text color, background color)
 -- #9ECEF5, #9ECEF5, italic     (text color, background color, modification)
 
-[hackerman]
+-- bundled peeknext themes
 
-background                          #111312
-foreground                          #777B78
-text_color                          #F2F1EC
-cursor                              #F2F1EC
+[peeknext-dark]
 
-default                             #D8D8D2
-keyword                             #F0A45D
-class                               #E8E6DF
-name                                #D8D8D2
-function                            #D8D8D2
-string                              #C8B97A
-number                              #D9A7C7
-operator                            #AEB1AD
-comment                             #777B78
-special                             #c6e5ff
-type                                #c6e5ff
-constant                            #D9A7C7
-builtin                             #D7B47A
+background                          #1f272a -- #212529
+foreground                          #f7f7f4
+text_color                          #ffffff
+cursor                              #C6E5FF
 
-_highlight                          #C8B97A
-_link                               #AABFC1, #AABFC1
+default                             #f7f7f4
+keyword                             #E67D74
+class                               #D0C5A9
+name                                #D0C5A9
+function                            #D0C5A9
+string                              #D4BC7D
+number                              #D699B5
+operator                            #E0AD82
+comment                             #87919D
+special                             #C6E5FF
+type                                #C6E5FF
+constant                            #D699B5
+builtin                             #E0AD82
 
-[koi]
+_highlight                          #D4BC7D
+_link                               #C6E5FF, #C6E5FF
+
+[peeknext-light]
 
 background                          #ffffff
 foreground                          #111111
@@ -498,31 +519,7 @@ _link                               #1e63e1, #1e63e1
 
 _error                              #e03526, #e03526
 
-[koi-dark]
-
-background                          #1f272a -- #212529
-foreground                          #f7f7f4
-text_color                          #ffffff
-cursor                              #C6E5FF
-
-default                             #f7f7f4
-keyword                             #E67D74
-class                               #D0C5A9
-name                                #D0C5A9
-function                            #D0C5A9
-string                              #D4BC7D
-number                              #D699B5
-operator                            #E0AD82
-comment                             #87919D
-special                             #C6E5FF
-type                                #C6E5FF
-constant                            #D699B5
-builtin                             #E0AD82
-
-_highlight                          #D4BC7D
-_link                               #C6E5FF, #C6E5FF
-
-[koi-mono]
+[peeknext-mono]
 
 background                          #ffffff
 foreground                          #111111
@@ -546,332 +543,426 @@ builtin                             #5D5D5D
 _selection                          #2e93b0
 _highlight                          #2e93b0
 
-[focus]
+[peeknext-contrast]
 
-background                          #15212A
-foreground                          #87919D
-text_color                          #BFC9DB
-cursor                              #26B2B2
-
-default                             #BFC9DB
-keyword                             #E67D74
-class                               #D0C5A9
-name                                #D0C5A9
-function                            #D0C5A9
-string                              #D4BC7D
-number                              #D699B5
-operator                            #E0AD82
-comment                             #87919D
-special                             #26B2B2
-type                                #26B2B2
-constant                            #D699B5
-builtin                             #E0AD82
-
-_highlight                          #D4BC7D
-
-[writer]                 
-
-background                          #191919
-foreground                          #C5C5C5
-text_color                          #C5C5C5
-cursor                              #00B6FF
-
-default                             #C5C5C5
-keyword                             #CA7E5F
-class                               #B48B4B
-name                                #B48B4B
-function                            #B48B4B
-string                              #7D9A67
-number                              #7592B8
-operator                            #C5C5C5
-comment                             #9198A1
-special                             #00B6FF
-type                                #C5C5C5
-constant                            #AB84A8
-builtin                             #D07773
-
-_highlight                          #FFFF3B
-
-[github-dark]                 
-
-background                          #0F1217
-foreground                          #868D97
-text_color                          #E3E9EF
-cursor                              #59C2FF
-
-default                             #E3E9EF
-keyword                             #FB6E65
-class                               #EE9B52
-name                                #D2A8FF
-function                            #D2A8FF
-string                              #A5D6FF
-number                              #77BDFB
-operator                            #77BDFB
-comment                             #9198A1
-special                             #79C0FF
-type                                #79C0FF
-constant                            #79C0FF
-builtin                             #77BDFB
-
-_error                              #FC4646, #FC4646
-
-[kujukuju]
-
-background                          #141824
-foreground                          #87919D
-text_color                          #BFC9DB
-cursor                              #26B2B2
-
-default                             #CBCEBC
-keyword                             #F07178
-class                               #D0C5A9
-name                                #FFCC66
-function                            #FFCC66
-string                              #BAE67E
-number                              #FF6A27
-operator                            #F07178
-comment                             #87919D
-special                             #26B2B2
-type                                #FFA759
-constant                            #D699B5
-builtin                             #9DD2BB
-
-[ayu-dark]
-
-background                          #10141C
-foreground                          #565B67
-text_color                          #BFBDB6
-cursor                              #59C2FF
-
-default                             #BFBDB6
-keyword                             #FF8F3F
-class                               #5AC2FF
-name                                #FFB454
-function                            #FFB454
-string                              #AAD94C
-number                              #FFB454
-operator                            #BFBDB6
-comment                             #6A7279
-special                             #59C2FF
-type                                #59C2FF
-constant                            #FFB454
-builtin                             #F07178
-
-_warning                            #FCAF24, #FCAF24, italic
-
-[chatgpt]
-
-background                          #181818
+background                          #090909
 foreground                          #FFFFFF
 text_color                          #FFFFFF
-cursor                              #FFFFFF
+cursor                              #62CAFF
 
 default                             #FFFFFF
-keyword                             #FF6B7A
-class                               #B392F0
-name                                #FFA657
-function                            #FFA657
-string                              #9ECBFF
-number                              #79B8FF
-operator                            #FF6B7A
-comment                             #8B949E
-special                             #B392F0
-type                                #79B8FF
-constant                            #79B8FF
-builtin                             #E36209
+keyword                             #FF9A9A
+class                               #FFE19A
+name                                #FFE19A
+function                            #A9F1C5
+string                              #FFF09A
+number                              #E6B6FF
+operator                            #FFFFFF
+comment                             #B9C4CE
+special                             #62CAFF
+type                                #9FE4FF
+constant                            #E6B6FF
+builtin                             #62CAFF
 
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
 
-[jblow]
+_selection                          #62CAFF
+_highlight                          #62CAFF
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #FFF09A
+_strike                             #B9C4CE, strike
+_code                               #FFF09A
+_link                               #62CAFF
+_todo                               #62CAFF
+_annotation                         #B9C4CE
 
-background                          #072626
-foreground                          #BFC9DB
+[peeknext-midnight]
+
+background                          #10151B
+foreground                          #DCE4EA
 text_color                          #FFFFFF
-cursor                              #90EE90
+cursor                              #75B8FF
 
-default                             #D3B58D
-keyword                             #FFFFFF
-class                               #D3B58D
-name                                #D3B58D
-function                            #D3B58D
-string                              #98FB98
-number                              #D699B5
-operator                            #E0AD82
-comment                             #6DB75D
-special                             #7FFFD4
-type                                #98FB98
-constant                            #D699B5
-builtin                             #E67D74
+default                             #DCE4EA
+keyword                             #E29B9B
+class                               #C4C9A4
+name                                #C4C9A4
+function                            #A5C7DD
+string                              #D8BB8C
+number                              #C7A8D8
+operator                            #D0A68C
+comment                             #718493
+special                             #75B8FF
+type                                #91C9C3
+constant                            #C7A8D8
+builtin                             #75B8FF
 
-_highlight                          #CD6889
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
 
-_error                              #FF0000
-_warning                            #E4D97D
-_success                            #227722
+_selection                          #75B8FF
+_highlight                          #75B8FF
+_bold                               #DCE4EA, bold
+_italic                             #DCE4EA, italic
+_underline                          #DCE4EA
+_verbatim                           #D8BB8C
+_strike                             #718493, strike
+_code                               #D8BB8C
+_link                               #75B8FF
+_todo                               #75B8FF
+_annotation                         #718493
 
+[peeknext-paper]
 
-[mono-light]
+background                          #F7F4EB
+foreground                          #292B2C
+text_color                          #111111
+cursor                              #3C7695
 
-background                          #FFFFFF
-foreground                          #000000
-text_color                          #000000
-cursor                              #000000
+default                             #292B2C
+keyword                             #A94F45
+class                               #4C5951
+name                                #4C5951
+function                            #3B6179
+string                              #88633B
+number                              #8B6192
+operator                            #555D62
+comment                             #989185
+special                             #3C7695
+type                                #527E75
+constant                            #8B6192
+builtin                             #3C7695
 
-default                             #000000
-keyword                             #000000, bold
-class                               #000000, italic
-name                                #000000
-function                            #000000
-string                              #000000
-number                              #000000
-operator                            #000000
-comment                             #000000, #000000
-special                             #000000
-type                                #000000
-constant                            #000000
-builtin                             #000000
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
 
-_highlight                          #000000
+_selection                          #3C7695
+_highlight                          #3C7695
+_bold                               #292B2C, bold
+_italic                             #292B2C, italic
+_underline                          #292B2C
+_verbatim                           #88633B
+_strike                             #989185, strike
+_code                               #88633B
+_link                               #3C7695
+_todo                               #3C7695
+_annotation                         #989185
 
-[dracula]
+-- additional bundled themes
+-- sublime-monokai, github-dark-dimmed, github-light, one-dark-pro, catppuccin-mocha, tokyo-night, gruvbox-dark, solarized-light, ayu-mirage
 
-background                          #282A36
-foreground                          #6272A4
-text_color                          #F8F8F2
-cursor                              #F8F8F2
+[sublime-monokai]
 
-default                             #F8F8F2
-keyword                             #FF79C6
-class                               #8BE9FD
-name                                #F1FA8C
-function                            #F1FA8C
-string                              #F1FA8C
-number                              #BD93F9
-operator                            #FF79C6
-comment                             #6272A4
-special                             #8BE9FD
-type                                #8BE9FD
-constant                            #BD93F9
-builtin                             #50FA7B
+background                          #272822
+foreground                          #f8f8f2
+text_color                          #f8f8f2
+cursor                              #f8f8f2
+default                             #f8f8f2
+keyword                             #f92672
+class                               #a6e22e
+name                                #a6e22e
+function                            #a6e22e
+string                              #e6db74
+number                              #ae81ff
+operator                            #f92672
+comment                             #75715e
+special                             #66d9ef
+type                                #66d9ef
+constant                            #ae81ff
+builtin                             #66d9ef
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #f8f8f2, #49483e
+_bold                               #f8f8f2, bold
+_italic                             #f8f8f2, italic
+_underline                          #f8f8f2
+_verbatim                           #e6db74
+_strike                             #75715e, strike
+_code                               #e6db74
+_link                               #66d9ef
+_todo                               #e3b341
+_annotation                         #75715e
 
-_highlight                          #FFB86C
-_link                               #8BE9FD, #8BE9FD
+[github-dark-dimmed]
 
-[gruvbox]
+background                          #22272e
+foreground                          #adbac7
+text_color                          #adbac7
+cursor                              #adbac7
+default                             #adbac7
+keyword                             #f47067
+class                               #dbb7ff
+name                                #dcbdfb
+function                            #dcbdfb
+string                              #96d0ff
+number                              #6cb6ff
+operator                            #adbac7
+comment                             #768390
+special                             #8ddb8c
+type                                #f69d50
+constant                            #6cb6ff
+builtin                             #dcbdfb
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #adbac7, #373e47
+_bold                               #adbac7, bold
+_italic                             #adbac7, italic
+_underline                          #adbac7
+_verbatim                           #96d0ff
+_strike                             #768390, strike
+_code                               #96d0ff
+_link                               #8ddb8c
+_todo                               #e3b341
+_annotation                         #768390
 
-background                          #282828
-foreground                          #928374
-text_color                          #EBDBB2
-cursor                              #EBDBB2
+[github-light]
 
-default                             #EBDBB2
-keyword                             #FB4934
-class                               #8EC07C
-name                                #FABD2F
-function                            #FABD2F
-string                              #B8BB26
-number                              #D3869B
-operator                            #FE8019
-comment                             #928374
-special                             #83A598
-type                                #8EC07C
-constant                            #D3869B
-builtin                             #FE8019
+background                          #ffffff
+foreground                          #1f2328
+text_color                          #1f2328
+cursor                              #1f2328
+default                             #1f2328
+keyword                             #cf222e
+class                               #953800
+name                                #8250df
+function                            #8250df
+string                              #0a3069
+number                              #0550ae
+operator                            #1f2328
+comment                             #6e7781
+special                             #116329
+type                                #953800
+constant                            #0550ae
+builtin                             #8250df
+_error                              #cf222e
+_warning                            #9a6700
+_success                            #1a7f37
+_selection                          #1f2328, #dbeafe
+_bold                               #1f2328, bold
+_italic                             #1f2328, italic
+_underline                          #1f2328
+_verbatim                           #0a3069
+_strike                             #6e7781, strike
+_code                               #0a3069
+_link                               #116329
+_todo                               #9a6700
+_annotation                         #6e7781
 
-_highlight                          #FABD2F
-_link                               #83A598, #83A598
+[one-dark-pro]
+
+background                          #282C34
+foreground                          #ABB2BF
+text_color                          #FFFFFF
+cursor                              #61AFEF
+
+default                             #ABB2BF
+keyword                             #C678DD
+class                               #E5C07B
+name                                #E5C07B
+function                            #61AFEF
+string                              #98C379
+number                              #D19A66
+operator                            #ABB2BF
+comment                             #7F848E
+special                             #56B6C2
+type                                #E5C07B
+constant                            #D19A66
+builtin                             #56B6C2
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #61AFEF
+_highlight                          #61AFEF
+_bold                               #ABB2BF, bold
+_italic                             #ABB2BF, italic
+_underline                          #ABB2BF
+_verbatim                           #98C379
+_strike                             #7F848E, strike
+_code                               #98C379
+_link                               #56B6C2
+_todo                               #61AFEF
+_annotation                         #7F848E
+
+[catppuccin-mocha]
+
+background                          #1E1E2E
+foreground                          #CDD6F4
+text_color                          #CDD6F4
+cursor                              #89B4FA
+
+default                             #CDD6F4
+keyword                             #CBA6F7
+class                               #F9E2AF
+name                                #89B4FA
+function                            #89B4FA
+string                              #A6E3A1
+number                              #FAB387
+operator                            #94E2D5
+comment                             #7F849C, italic
+special                             #F38BA8
+type                                #F9E2AF
+constant                            #FAB387
+builtin                             #94E2D5
+
+_error                              #F38BA8
+_warning                            #FAB387
+_success                            #A6E3A1
+_selection                          #CDD6F4, #45475A
+_bold                               #CDD6F4, bold
+_italic                             #CDD6F4, italic
+_underline                          #89B4FA
+_verbatim                           #A6E3A1
+_strike                             #7F849C
+_code                               #94E2D5
+_link                               #89B4FA
+_todo                               #FAB387, bold
+_annotation                         #7F849C
 
 [tokyo-night]
 
 background                          #1A1B26
-foreground                          #565F89
+foreground                          #C0CAF5
 text_color                          #C0CAF5
-cursor                              #C0CAF5
+cursor                              #7AA2F7
 
 default                             #C0CAF5
 keyword                             #BB9AF7
-class                               #7DCFFF
-name                                #E0AF68
-function                            #E0AF68
+class                               #E0AF68
+name                                #7AA2F7
+function                            #7AA2F7
 string                              #9ECE6A
 number                              #FF9E64
-operator                            #89DDFF
-comment                             #565F89
-special                             #7DCFFF
-type                                #2AC3DE
+operator                            #7DCFFF
+comment                             #737AA2, italic
+special                             #F7768E
+type                                #E0AF68
 constant                            #FF9E64
-builtin                             #7AA2F7
+builtin                             #7DCFFF
 
-_highlight                          #E0AF68
-_link                               #7DCFFF, #7DCFFF
+_error                              #F7768E
+_warning                            #FF9E64
+_success                            #9ECE6A
+_selection                          #C0CAF5, #33467C
+_bold                               #C0CAF5, bold
+_italic                             #C0CAF5, italic
+_underline                          #7AA2F7
+_verbatim                           #9ECE6A
+_strike                             #737AA2
+_code                               #7DCFFF
+_link                               #7AA2F7
+_todo                               #FF9E64, bold
+_annotation                         #737AA2
 
-[catppuccin]
+[gruvbox-dark]
 
-background                          #1E1E2E
-foreground                          #6C7086
-text_color                          #CDD6F4
-cursor                              #F5E0DC
+background                          #282828
+foreground                          #EBDBB2
+text_color                          #EBDBB2
+cursor                              #83A598
 
-default                             #CDD6F4
-keyword                             #CBA6F7
-class                               #89DCEB
-name                                #F9E2AF
-function                            #F9E2AF
-string                              #A6E3A1
-number                              #FAB387
-operator                            #89DCEB
-comment                             #6C7086
-special                             #89B4FA
-type                                #94E2D5
-constant                            #FAB387
-builtin                             #F38BA8
+default                             #EBDBB2
+keyword                             #D3869B
+class                               #FABD2F
+name                                #83A598
+function                            #83A598
+string                              #B8BB26
+number                              #FE8019
+operator                            #8EC07C
+comment                             #928374, italic
+special                             #FB4934
+type                                #FABD2F
+constant                            #FE8019
+builtin                             #8EC07C
 
-_highlight                          #F9E2AF
-_link                               #89B4FA, #89B4FA
+_error                              #FB4934
+_warning                            #FE8019
+_success                            #B8BB26
+_selection                          #EBDBB2, #504945
+_bold                               #EBDBB2, bold
+_italic                             #EBDBB2, italic
+_underline                          #83A598
+_verbatim                           #B8BB26
+_strike                             #928374
+_code                               #8EC07C
+_link                               #83A598
+_todo                               #FE8019, bold
+_annotation                         #928374
 
-[nord]
+[solarized-light]
 
-background                          #2B313C
-foreground                          #7687A0
-text_color                          #ECEFF4
-cursor                              #ECEFF4
+background                          #FDF6E3
+foreground                          #657B83
+text_color                          #657B83
+cursor                              #268BD2
 
-default                             #D8DEE9
-keyword                             #88C0D0
-class                               #8FBCBB
-name                                #EBCB8B
-function                            #EBCB8B
-string                              #A3BE8C
-number                              #B48EAD
-operator                            #81A1C1
-comment                             #7687A0
-special                             #81A1C1
-type                                #8FBCBB
-constant                            #B48EAD
-builtin                             #D08770
+default                             #657B83
+keyword                             #6C71C4
+class                               #B58900
+name                                #268BD2
+function                            #268BD2
+string                              #859900
+number                              #CB4B16
+operator                            #2AA198
+comment                             #93A1A1, italic
+special                             #DC322F
+type                                #B58900
+constant                            #CB4B16
+builtin                             #2AA198
 
-_highlight                          #EBCB8B
-_link                               #88C0D0, #88C0D0
+_error                              #DC322F
+_warning                            #CB4B16
+_success                            #859900
+_selection                          #657B83, #EEE8D5
+_bold                               #657B83, bold
+_italic                             #657B83, italic
+_underline                          #268BD2
+_verbatim                           #859900
+_strike                             #93A1A1
+_code                               #2AA198
+_link                               #268BD2
+_todo                               #CB4B16, bold
+_annotation                         #93A1A1
 
-[monokai]
+[ayu-mirage]
 
-background                          #272822
-foreground                          #F8F8F2
-text_color                          #FFFFFF
-cursor                              #F8F8F0
+background                          #1f2430
+foreground                          #cccac2
+text_color                          #cccac2
+cursor                              #cccac2
+default                             #cccac2
+keyword                             #ffa759
+class                               #73d0ff
+name                                #ffd580
+function                            #ffd580
+string                              #bae67e
+number                              #d4bfff
+operator                            #f29e74
+comment                             #707a8c
+special                             #95e6cb
+type                                #73d0ff
+constant                            #d4bfff
+builtin                             #ffcc66
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #cccac2, #34415a
+_bold                               #cccac2, bold
+_italic                             #cccac2, italic
+_underline                          #cccac2
+_verbatim                           #bae67e
+_strike                             #707a8c, strike
+_code                               #bae67e
+_link                               #95e6cb
+_todo                               #e3b341
+_annotation                         #707a8c
 
-default                             #F8F8F2
-keyword                             #F92672
-class                               #A6E22E
-name                                #A6E22E
-function                            #A6E22E
-string                              #E6DB74
-number                              #AE81FF
-operator                            #F92672
-comment                             #75715E
-special                             #66D9EF
-type                                #66D9EF
-constant                            #AE81FF
-builtin                             #66D9EF
-
-_highlight                          #FD971F
-_link                               #66D9EF, #66D9EF
