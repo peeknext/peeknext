@@ -1,0 +1,36 @@
+[synthwave-84]
+
+background                          #241B2F
+foreground                          #F5E7FF
+text_color                          #FFFFFF
+cursor                              #36F9F6
+
+default                             #F5E7FF
+keyword                             #FF7EDB
+class                               #FEDE5D
+name                                #FEDE5D
+function                            #36F9F6
+string                              #72F1B8
+number                              #F97E72
+operator                            #FF7EDB
+comment                             #848BBD
+special                             #36F9F6
+type                                #FEDE5D
+constant                            #F97E72
+builtin                             #36F9F6
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #36F9F6
+_highlight                          #36F9F6
+_bold                               #F5E7FF, bold
+_italic                             #F5E7FF, italic
+_underline                          #F5E7FF
+_verbatim                           #72F1B8
+_strike                             #848BBD, strike
+_code                               #72F1B8
+_link                               #36F9F6
+_todo                               #36F9F6
+_annotation                         #848BBD

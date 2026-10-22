@@ -1,0 +1,32 @@
+[sublime-monokai]
+
+background                          #272822
+foreground                          #f8f8f2
+text_color                          #f8f8f2
+cursor                              #f8f8f2
+default                             #f8f8f2
+keyword                             #f92672
+class                               #a6e22e
+name                                #a6e22e
+function                            #a6e22e
+string                              #e6db74
+number                              #ae81ff
+operator                            #f92672
+comment                             #75715e
+special                             #66d9ef
+type                                #66d9ef
+constant                            #ae81ff
+builtin                             #66d9ef
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #f8f8f2, #49483e
+_bold                               #f8f8f2, bold
+_italic                             #f8f8f2, italic
+_underline                          #f8f8f2
+_verbatim                           #e6db74
+_strike                             #75715e, strike
+_code                               #e6db74
+_link                               #66d9ef
+_todo                               #e3b341
+_annotation                         #75715e

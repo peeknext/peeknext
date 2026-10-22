@@ -1,0 +1,32 @@
+[emacs-classic]
+
+background                          #FFFFFF
+foreground                          #000000
+text_color                          #000000
+cursor                              #000000
+default                             #000000
+keyword                             #A020F0, bold
+class                               #228B22
+name                                #0000FF
+function                            #0000FF
+string                              #8B2252
+number                              #B8860B
+operator                            #000000
+comment                             #B22222, italic
+special                             #008B8B
+type                                #228B22
+constant                            #B8860B
+builtin                             #0000FF
+_error                              #B22222
+_warning                            #B8860B
+_success                            #228B22
+_selection                          #0000FF
+_bold                               #0000FF, bold
+_italic                             #8B2252, italic
+_underline                          #000000, underline
+_verbatim                           #8B2252
+_strike                             #999999
+_code                               #8B2252
+_link                               #0000FF, underline
+_todo                               #B8860B, bold
+_annotation                         #666666

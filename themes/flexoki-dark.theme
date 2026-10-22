@@ -1,0 +1,36 @@
+[flexoki-dark]
+
+background                          #100F0F
+foreground                          #CECDC3
+text_color                          #FFFFFF
+cursor                              #4385BE
+
+default                             #CECDC3
+keyword                             #D14D41
+class                               #879A39
+name                                #879A39
+function                            #4385BE
+string                              #D0A215
+number                              #CE5D97
+operator                            #CECDC3
+comment                             #878580
+special                             #3AA99F
+type                                #8B7EC8
+constant                            #CE5D97
+builtin                             #3AA99F
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #4385BE
+_highlight                          #4385BE
+_bold                               #CECDC3, bold
+_italic                             #CECDC3, italic
+_underline                          #CECDC3
+_verbatim                           #D0A215
+_strike                             #878580, strike
+_code                               #D0A215
+_link                               #3AA99F
+_todo                               #4385BE
+_annotation                         #878580

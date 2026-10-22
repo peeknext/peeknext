@@ -1,0 +1,32 @@
+[mono-light]
+
+background                          #fafafa
+foreground                          #292929
+text_color                          #292929
+cursor                              #111111
+default                             #292929
+keyword                             #111111, bold
+class                               #292929
+name                                #292929
+function                            #292929
+string                              #555555
+number                              #555555
+operator                            #292929
+comment                             #898989, italic
+special                             #555555
+type                                #292929
+constant                            #555555
+builtin                             #292929
+_error                              #a35454
+_warning                            #94702b
+_success                            #477e5b
+_selection                          #555555
+_bold                               #111111, bold
+_italic                             #292929, italic
+_underline                          #292929
+_verbatim                           #555555
+_strike                             #898989, strike
+_code                               #555555
+_link                               #555555, underline
+_todo                               #111111, bold
+_annotation                         #898989

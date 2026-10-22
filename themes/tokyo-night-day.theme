@@ -1,0 +1,34 @@
+[tokyo-night-day]
+
+background                          #E1E2E7
+foreground                          #3760BF
+text_color                          #3760BF
+cursor                              #2E7DE9
+
+default                             #3760BF
+keyword                             #7847BD
+class                               #8C6C3E
+name                                #2E7DE9
+function                            #2E7DE9
+string                              #587539
+number                              #B15C00
+operator                            #007197
+comment                             #848CB5, italic
+special                             #F52A65
+type                                #8C6C3E
+constant                            #B15C00
+builtin                             #007197
+
+_error                              #F52A65
+_warning                            #B15C00
+_success                            #587539
+_selection                          #3760BF, #B7C1E3
+_bold                               #3760BF, bold
+_italic                             #3760BF, italic
+_underline                          #2E7DE9
+_verbatim                           #587539
+_strike                             #848CB5
+_code                               #007197
+_link                               #2E7DE9
+_todo                               #B15C00, bold
+_annotation                         #848CB5

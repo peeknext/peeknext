@@ -1,0 +1,34 @@
+[gruvbox-light]
+
+background                          #FBF1C7
+foreground                          #3C3836
+text_color                          #3C3836
+cursor                              #076678
+
+default                             #3C3836
+keyword                             #8F3F71
+class                               #B57614
+name                                #076678
+function                            #076678
+string                              #79740E
+number                              #AF3A03
+operator                            #427B58
+comment                             #928374, italic
+special                             #9D0006
+type                                #B57614
+constant                            #AF3A03
+builtin                             #427B58
+
+_error                              #9D0006
+_warning                            #AF3A03
+_success                            #79740E
+_selection                          #3C3836, #D5C4A1
+_bold                               #3C3836, bold
+_italic                             #3C3836, italic
+_underline                          #076678
+_verbatim                           #79740E
+_strike                             #928374
+_code                               #427B58
+_link                               #076678
+_todo                               #AF3A03, bold
+_annotation                         #928374

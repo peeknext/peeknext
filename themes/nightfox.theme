@@ -1,0 +1,36 @@
+[nightfox]
+
+background                          #192330
+foreground                          #CDCECF
+text_color                          #FFFFFF
+cursor                              #86ABDC
+
+default                             #CDCECF
+keyword                             #C94F6D
+class                               #81B29A
+name                                #81B29A
+function                            #719CD6
+string                              #DBC074
+number                              #F4A261
+operator                            #CDCECF
+comment                             #738091
+special                             #86ABDC
+type                                #9D79D6
+constant                            #F4A261
+builtin                             #86ABDC
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #86ABDC
+_highlight                          #86ABDC
+_bold                               #CDCECF, bold
+_italic                             #CDCECF, italic
+_underline                          #CDCECF
+_verbatim                           #DBC074
+_strike                             #738091, strike
+_code                               #DBC074
+_link                               #86ABDC
+_todo                               #86ABDC
+_annotation                         #738091

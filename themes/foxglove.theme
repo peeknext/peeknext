@@ -1,0 +1,21 @@
+[foxglove]
+
+background                          #FDFDFA
+foreground                          #373735
+text_color                          #373735
+cursor                              #8F4D59
+default                             #373735
+keyword                             #373735
+class                               #373735
+name                                #373735
+function                            #274885
+string                              #8F4D59
+number                              #8F4D59
+operator                            #373735
+comment                             #7A8264
+special                             #82590B
+type                                #4A6474
+constant                            #82590B
+builtin                             #373735
+_highlight                          #F1CF99
+_link                               #274885, #274885

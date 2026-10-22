@@ -1,0 +1,36 @@
+[monokai-pro-spectrum]
+
+background                          #222222
+foreground                          #F7F1FF
+text_color                          #FFFFFF
+cursor                              #5AD4E6
+
+default                             #F7F1FF
+keyword                             #FC618D
+class                               #7BD88F
+name                                #7BD88F
+function                            #7BD88F
+string                              #FCE566
+number                              #948AE3
+operator                            #FC618D
+comment                             #69676C
+special                             #5AD4E6
+type                                #948AE3
+constant                            #948AE3
+builtin                             #5AD4E6
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #5AD4E6
+_highlight                          #5AD4E6
+_bold                               #F7F1FF, bold
+_italic                             #F7F1FF, italic
+_underline                          #F7F1FF
+_verbatim                           #FCE566
+_strike                             #69676C, strike
+_code                               #FCE566
+_link                               #5AD4E6
+_todo                               #5AD4E6
+_annotation                         #69676C

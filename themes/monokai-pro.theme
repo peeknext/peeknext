@@ -1,0 +1,36 @@
+[monokai-pro]
+
+background                          #2D2A2E
+foreground                          #FCFCFA
+text_color                          #FFFFFF
+cursor                              #78DCE8
+
+default                             #FCFCFA
+keyword                             #FF6188
+class                               #A9DC76
+name                                #A9DC76
+function                            #A9DC76
+string                              #FFD866
+number                              #AB9DF2
+operator                            #FF6188
+comment                             #727072
+special                             #78DCE8
+type                                #78DCE8
+constant                            #AB9DF2
+builtin                             #78DCE8
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #78DCE8
+_highlight                          #78DCE8
+_bold                               #FCFCFA, bold
+_italic                             #FCFCFA, italic
+_underline                          #FCFCFA
+_verbatim                           #FFD866
+_strike                             #727072, strike
+_code                               #FFD866
+_link                               #78DCE8
+_todo                               #78DCE8
+_annotation                         #727072

@@ -1,0 +1,32 @@
+[mono-sepia]
+
+background                          #eee5d6
+foreground                          #453c32
+text_color                          #453c32
+cursor                              #302820
+default                             #453c32
+keyword                             #302820, bold
+class                               #453c32
+name                                #453c32
+function                            #453c32
+string                              #706357
+number                              #706357
+operator                            #453c32
+comment                             #96897b, italic
+special                             #706357
+type                                #453c32
+constant                            #706357
+builtin                             #453c32
+_error                              #ad6e65
+_warning                            #a18046
+_success                            #6c856b
+_selection                          #706357
+_bold                               #302820, bold
+_italic                             #453c32, italic
+_underline                          #453c32
+_verbatim                           #706357
+_strike                             #96897b, strike
+_code                               #706357
+_link                               #706357, underline
+_todo                               #302820, bold
+_annotation                         #96897b

@@ -1,0 +1,36 @@
+[espresso]
+
+background                          #FFFFFF
+foreground                          #333333
+text_color                          #111111
+cursor                              #3572A5
+
+default                             #333333
+keyword                             #A71D5D
+class                               #6F42C1
+name                                #6F42C1
+function                            #2678A4
+string                              #718C00
+number                              #986801
+operator                            #444444
+comment                             #8E908C
+special                             #3572A5
+type                                #8959A8
+constant                            #986801
+builtin                             #3572A5
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #3572A5
+_highlight                          #3572A5
+_bold                               #333333, bold
+_italic                             #333333, italic
+_underline                          #333333
+_verbatim                           #718C00
+_strike                             #8E908C, strike
+_code                               #718C00
+_link                               #3572A5
+_todo                               #3572A5
+_annotation                         #8E908C

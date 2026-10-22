@@ -1,0 +1,36 @@
+[min-dark]
+
+background                          #1F1F1F
+foreground                          #D4D4D4
+text_color                          #FFFFFF
+cursor                              #85A7D1
+
+default                             #D4D4D4
+keyword                             #D4D4D4
+class                               #D4D4D4
+name                                #D4D4D4
+function                            #D4D4D4
+string                              #A3B99C
+number                              #D4D4D4
+operator                            #D4D4D4
+comment                             #7B7B7B
+special                             #85A7D1
+type                                #D4D4D4
+constant                            #D4D4D4
+builtin                             #85A7D1
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #85A7D1
+_highlight                          #85A7D1
+_bold                               #D4D4D4, bold
+_italic                             #D4D4D4, italic
+_underline                          #D4D4D4
+_verbatim                           #A3B99C
+_strike                             #7B7B7B, strike
+_code                               #A3B99C
+_link                               #85A7D1
+_todo                               #85A7D1
+_annotation                         #7B7B7B

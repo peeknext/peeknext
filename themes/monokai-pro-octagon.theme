@@ -1,0 +1,36 @@
+[monokai-pro-octagon]
+
+background                          #282A3A
+foreground                          #EAF2F1
+text_color                          #FFFFFF
+cursor                              #5AD4E6
+
+default                             #EAF2F1
+keyword                             #FF657A
+class                               #BAD761
+name                                #BAD761
+function                            #BAD761
+string                              #FFD76D
+number                              #C39AC9
+operator                            #FF657A
+comment                             #72768A
+special                             #5AD4E6
+type                                #C39AC9
+constant                            #C39AC9
+builtin                             #5AD4E6
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #5AD4E6
+_highlight                          #5AD4E6
+_bold                               #EAF2F1, bold
+_italic                             #EAF2F1, italic
+_underline                          #EAF2F1
+_verbatim                           #FFD76D
+_strike                             #72768A, strike
+_code                               #FFD76D
+_link                               #5AD4E6
+_todo                               #5AD4E6
+_annotation                         #72768A

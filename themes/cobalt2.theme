@@ -1,0 +1,36 @@
+[cobalt2]
+
+background                          #193549
+foreground                          #FFFFFF
+text_color                          #FFFFFF
+cursor                              #FFC600
+
+default                             #FFFFFF
+keyword                             #FF9D00
+class                               #9EFFFF
+name                                #9EFFFF
+function                            #FFC600
+string                              #A5FF90
+number                              #FF628C
+operator                            #FFFFFF
+comment                             #0088AA
+special                             #80FFBB
+type                                #9EFFFF
+constant                            #FF628C
+builtin                             #80FFBB
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #FFC600
+_highlight                          #FFC600
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #A5FF90
+_strike                             #0088AA, strike
+_code                               #A5FF90
+_link                               #80FFBB
+_todo                               #FFC600
+_annotation                         #0088AA

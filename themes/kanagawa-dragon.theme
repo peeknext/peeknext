@@ -1,0 +1,36 @@
+[kanagawa-dragon]
+
+background                          #181616
+foreground                          #C5C9C5
+text_color                          #FFFFFF
+cursor                              #8BA4B0
+
+default                             #C5C9C5
+keyword                             #8992A7
+class                               #C4B28A
+name                                #C4B28A
+function                            #8BA4B0
+string                              #87A987
+number                              #A292A3
+operator                            #C5C9C5
+comment                             #737C73
+special                             #8EA4A2
+type                                #8A9A7B
+constant                            #A292A3
+builtin                             #8EA4A2
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #8BA4B0
+_highlight                          #8BA4B0
+_bold                               #C5C9C5, bold
+_italic                             #C5C9C5, italic
+_underline                          #C5C9C5
+_verbatim                           #87A987
+_strike                             #737C73, strike
+_code                               #87A987
+_link                               #8EA4A2
+_todo                               #8BA4B0
+_annotation                         #737C73

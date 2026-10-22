@@ -1,0 +1,36 @@
+[molokai]
+
+background                          #1B1D1E
+foreground                          #F8F8F2
+text_color                          #FFFFFF
+cursor                              #66D9EF
+
+default                             #F8F8F2
+keyword                             #F92672
+class                               #A6E22E
+name                                #A6E22E
+function                            #A6E22E
+string                              #E6DB74
+number                              #AE81FF
+operator                            #F92672
+comment                             #75715E
+special                             #66D9EF
+type                                #66D9EF
+constant                            #AE81FF
+builtin                             #66D9EF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #66D9EF
+_highlight                          #66D9EF
+_bold                               #F8F8F2, bold
+_italic                             #F8F8F2, italic
+_underline                          #F8F8F2
+_verbatim                           #E6DB74
+_strike                             #75715E, strike
+_code                               #E6DB74
+_link                               #66D9EF
+_todo                               #66D9EF
+_annotation                         #75715E

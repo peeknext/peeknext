@@ -1,0 +1,36 @@
+[solarized-light-high-contrast]
+
+background                          #FFFDF2
+foreground                          #253C42
+text_color                          #111111
+cursor                              #007F83
+
+default                             #253C42
+keyword                             #8A6800
+class                               #176CB0
+name                                #176CB0
+function                            #176CB0
+string                              #007F83
+number                              #B12A73
+operator                            #253C42
+comment                             #6F8388
+special                             #007F83
+type                                #A04B00
+constant                            #B12A73
+builtin                             #007F83
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #007F83
+_highlight                          #007F83
+_bold                               #253C42, bold
+_italic                             #253C42, italic
+_underline                          #253C42
+_verbatim                           #007F83
+_strike                             #6F8388, strike
+_code                               #007F83
+_link                               #007F83
+_todo                               #007F83
+_annotation                         #6F8388

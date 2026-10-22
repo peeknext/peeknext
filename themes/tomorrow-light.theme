@@ -1,0 +1,36 @@
+[tomorrow-light]
+
+background                          #FFFFFF
+foreground                          #4D4D4C
+text_color                          #111111
+cursor                              #4271AE
+
+default                             #4D4D4C
+keyword                             #8959A8
+class                               #C99E00
+name                                #C99E00
+function                            #4271AE
+string                              #718C00
+number                              #F5871F
+operator                            #4D4D4C
+comment                             #8E908C
+special                             #3E999F
+type                                #C99E00
+constant                            #F5871F
+builtin                             #3E999F
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #4271AE
+_highlight                          #4271AE
+_bold                               #4D4D4C, bold
+_italic                             #4D4D4C, italic
+_underline                          #4D4D4C
+_verbatim                           #718C00
+_strike                             #8E908C, strike
+_code                               #718C00
+_link                               #3E999F
+_todo                               #4271AE
+_annotation                         #8E908C

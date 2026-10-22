@@ -1,0 +1,36 @@
+[textmate-mac-classic]
+
+background                          #FFFFFF
+foreground                          #222222
+text_color                          #111111
+cursor                              #2459A6
+
+default                             #222222
+keyword                             #A00000
+class                               #264E8B
+name                                #264E8B
+function                            #1B66A4
+string                              #C02C26
+number                              #1B8D8B
+operator                            #343434
+comment                             #6B806D
+special                             #2459A6
+type                                #206A76
+constant                            #1B8D8B
+builtin                             #2459A6
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #2459A6
+_highlight                          #2459A6
+_bold                               #222222, bold
+_italic                             #222222, italic
+_underline                          #222222
+_verbatim                           #C02C26
+_strike                             #6B806D, strike
+_code                               #C02C26
+_link                               #2459A6
+_todo                               #2459A6
+_annotation                         #6B806D

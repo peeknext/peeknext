@@ -1,0 +1,34 @@
+[catppuccin-mocha]
+
+background                          #1E1E2E
+foreground                          #CDD6F4
+text_color                          #CDD6F4
+cursor                              #89B4FA
+
+default                             #CDD6F4
+keyword                             #CBA6F7
+class                               #F9E2AF
+name                                #89B4FA
+function                            #89B4FA
+string                              #A6E3A1
+number                              #FAB387
+operator                            #94E2D5
+comment                             #7F849C, italic
+special                             #F38BA8
+type                                #F9E2AF
+constant                            #FAB387
+builtin                             #94E2D5
+
+_error                              #F38BA8
+_warning                            #FAB387
+_success                            #A6E3A1
+_selection                          #CDD6F4, #45475A
+_bold                               #CDD6F4, bold
+_italic                             #CDD6F4, italic
+_underline                          #89B4FA
+_verbatim                           #A6E3A1
+_strike                             #7F849C
+_code                               #94E2D5
+_link                               #89B4FA
+_todo                               #FAB387, bold
+_annotation                         #7F849C

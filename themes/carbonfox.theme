@@ -1,0 +1,36 @@
+[carbonfox]
+
+background                          #161616
+foreground                          #F2F4F8
+text_color                          #FFFFFF
+cursor                              #78A9FF
+
+default                             #F2F4F8
+keyword                             #BE95FF
+class                               #FF7EB6
+name                                #FF7EB6
+function                            #82CFFF
+string                              #A7F0BA
+number                              #EE5396
+operator                            #F2F4F8
+comment                             #7B7B7B
+special                             #78A9FF
+type                                #3DDBD9
+constant                            #EE5396
+builtin                             #78A9FF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #78A9FF
+_highlight                          #78A9FF
+_bold                               #F2F4F8, bold
+_italic                             #F2F4F8, italic
+_underline                          #F2F4F8
+_verbatim                           #A7F0BA
+_strike                             #7B7B7B, strike
+_code                               #A7F0BA
+_link                               #78A9FF
+_todo                               #78A9FF
+_annotation                         #7B7B7B

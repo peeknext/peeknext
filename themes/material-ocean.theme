@@ -1,0 +1,36 @@
+[material-ocean]
+
+background                          #0F111A
+foreground                          #8F93A2
+text_color                          #FFFFFF
+cursor                              #82AAFF
+
+default                             #8F93A2
+keyword                             #C792EA
+class                               #FFCB6B
+name                                #FFCB6B
+function                            #82AAFF
+string                              #C3E88D
+number                              #F78C6C
+operator                            #8F93A2
+comment                             #464B5D
+special                             #89DDFF
+type                                #FFCB6B
+constant                            #F78C6C
+builtin                             #89DDFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #82AAFF
+_highlight                          #82AAFF
+_bold                               #8F93A2, bold
+_italic                             #8F93A2, italic
+_underline                          #8F93A2
+_verbatim                           #C3E88D
+_strike                             #464B5D, strike
+_code                               #C3E88D
+_link                               #89DDFF
+_todo                               #82AAFF
+_annotation                         #464B5D

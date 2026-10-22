@@ -1,0 +1,36 @@
+[one-dark-pro]
+
+background                          #282C34
+foreground                          #ABB2BF
+text_color                          #FFFFFF
+cursor                              #61AFEF
+
+default                             #ABB2BF
+keyword                             #C678DD
+class                               #E5C07B
+name                                #E5C07B
+function                            #61AFEF
+string                              #98C379
+number                              #D19A66
+operator                            #ABB2BF
+comment                             #7F848E
+special                             #56B6C2
+type                                #E5C07B
+constant                            #D19A66
+builtin                             #56B6C2
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #61AFEF
+_highlight                          #61AFEF
+_bold                               #ABB2BF, bold
+_italic                             #ABB2BF, italic
+_underline                          #ABB2BF
+_verbatim                           #98C379
+_strike                             #7F848E, strike
+_code                               #98C379
+_link                               #56B6C2
+_todo                               #61AFEF
+_annotation                         #7F848E

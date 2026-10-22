@@ -1,0 +1,36 @@
+[tomorrow-night]
+
+background                          #1D1F21
+foreground                          #C5C8C6
+text_color                          #FFFFFF
+cursor                              #81A2BE
+
+default                             #C5C8C6
+keyword                             #B294BB
+class                               #F0C674
+name                                #F0C674
+function                            #81A2BE
+string                              #B5BD68
+number                              #DE935F
+operator                            #C5C8C6
+comment                             #969896
+special                             #8ABEB7
+type                                #F0C674
+constant                            #DE935F
+builtin                             #8ABEB7
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #81A2BE
+_highlight                          #81A2BE
+_bold                               #C5C8C6, bold
+_italic                             #C5C8C6, italic
+_underline                          #C5C8C6
+_verbatim                           #B5BD68
+_strike                             #969896, strike
+_code                               #B5BD68
+_link                               #8ABEB7
+_todo                               #81A2BE
+_annotation                         #969896

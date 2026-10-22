@@ -1,0 +1,21 @@
+[foxglove-vellum]
+
+background                          #FEFCF8
+foreground                          #3B3631
+text_color                          #3B3631
+cursor                              #8F4D59
+default                             #3B3631
+keyword                             #3B3631
+class                               #3B3631
+name                                #3B3631
+function                            #274885
+string                              #8F4D59
+number                              #8F4D59
+operator                            #3B3631
+comment                             #7A8264
+special                             #82590B
+type                                #4A6474
+constant                            #82590B
+builtin                             #3B3631
+_highlight                          #F1CF99
+_link                               #274885, #274885

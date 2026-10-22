@@ -1,0 +1,34 @@
+[dracula]
+
+background                          #282A36
+foreground                          #F8F8F2
+text_color                          #F8F8F2
+cursor                              #8BE9FD
+
+default                             #F8F8F2
+keyword                             #BD93F9
+class                               #F1FA8C
+name                                #8BE9FD
+function                            #8BE9FD
+string                              #50FA7B
+number                              #FFB86C
+operator                            #8BE9FD
+comment                             #80869C, italic
+special                             #FF5555
+type                                #F1FA8C
+constant                            #FFB86C
+builtin                             #8BE9FD
+
+_error                              #FF5555
+_warning                            #FFB86C
+_success                            #50FA7B
+_selection                          #F8F8F2, #44475A
+_bold                               #F8F8F2, bold
+_italic                             #F8F8F2, italic
+_underline                          #8BE9FD
+_verbatim                           #50FA7B
+_strike                             #80869C
+_code                               #8BE9FD
+_link                               #8BE9FD
+_todo                               #FFB86C, bold
+_annotation                         #80869C

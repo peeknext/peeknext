@@ -1,0 +1,36 @@
+[peeknext-paper]
+
+background                          #F7F4EB
+foreground                          #292B2C
+text_color                          #111111
+cursor                              #3C7695
+
+default                             #292B2C
+keyword                             #A94F45
+class                               #4C5951
+name                                #4C5951
+function                            #3B6179
+string                              #88633B
+number                              #8B6192
+operator                            #555D62
+comment                             #989185
+special                             #3C7695
+type                                #527E75
+constant                            #8B6192
+builtin                             #3C7695
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #3C7695
+_highlight                          #3C7695
+_bold                               #292B2C, bold
+_italic                             #292B2C, italic
+_underline                          #292B2C
+_verbatim                           #88633B
+_strike                             #989185, strike
+_code                               #88633B
+_link                               #3C7695
+_todo                               #3C7695
+_annotation                         #989185

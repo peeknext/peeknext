@@ -1,0 +1,36 @@
+[min-light]
+
+background                          #FFFFFF
+foreground                          #333333
+text_color                          #111111
+cursor                              #426D9A
+
+default                             #333333
+keyword                             #333333
+class                               #333333
+name                                #333333
+function                            #333333
+string                              #68845E
+number                              #333333
+operator                            #333333
+comment                             #999999
+special                             #426D9A
+type                                #333333
+constant                            #333333
+builtin                             #426D9A
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #426D9A
+_highlight                          #426D9A
+_bold                               #333333, bold
+_italic                             #333333, italic
+_underline                          #333333
+_verbatim                           #68845E
+_strike                             #999999, strike
+_code                               #68845E
+_link                               #426D9A
+_todo                               #426D9A
+_annotation                         #999999

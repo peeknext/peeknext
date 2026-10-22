@@ -1,0 +1,36 @@
+[kanagawa-wave]
+
+background                          #1F1F28
+foreground                          #DCD7BA
+text_color                          #FFFFFF
+cursor                              #7E9CD8
+
+default                             #DCD7BA
+keyword                             #957FB8
+class                               #E6C384
+name                                #E6C384
+function                            #7E9CD8
+string                              #98BB6C
+number                              #D27E99
+operator                            #DCD7BA
+comment                             #727169
+special                             #7FB4CA
+type                                #7AA89F
+constant                            #D27E99
+builtin                             #7FB4CA
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #7E9CD8
+_highlight                          #7E9CD8
+_bold                               #DCD7BA, bold
+_italic                             #DCD7BA, italic
+_underline                          #DCD7BA
+_verbatim                           #98BB6C
+_strike                             #727169, strike
+_code                               #98BB6C
+_link                               #7FB4CA
+_todo                               #7E9CD8
+_annotation                         #727169

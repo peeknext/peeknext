@@ -1,0 +1,34 @@
+[everforest-dark]
+
+background                          #2D353B
+foreground                          #D3C6AA
+text_color                          #D3C6AA
+cursor                              #7FBBB3
+
+default                             #D3C6AA
+keyword                             #D699B6
+class                               #DBBC7F
+name                                #7FBBB3
+function                            #7FBBB3
+string                              #A7C080
+number                              #E69875
+operator                            #83C092
+comment                             #859289, italic
+special                             #E67E80
+type                                #DBBC7F
+constant                            #E69875
+builtin                             #83C092
+
+_error                              #E67E80
+_warning                            #E69875
+_success                            #A7C080
+_selection                          #D3C6AA, #475258
+_bold                               #D3C6AA, bold
+_italic                             #D3C6AA, italic
+_underline                          #7FBBB3
+_verbatim                           #A7C080
+_strike                             #859289
+_code                               #83C092
+_link                               #7FBBB3
+_todo                               #E69875, bold
+_annotation                         #859289

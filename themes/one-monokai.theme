@@ -1,0 +1,36 @@
+[one-monokai]
+
+background                          #282C34
+foreground                          #ABB2BF
+text_color                          #FFFFFF
+cursor                              #61AFEF
+
+default                             #ABB2BF
+keyword                             #F92672
+class                               #A6E22E
+name                                #A6E22E
+function                            #61AFEF
+string                              #E6DB74
+number                              #AE81FF
+operator                            #F92672
+comment                             #75715E
+special                             #66D9EF
+type                                #66D9EF
+constant                            #AE81FF
+builtin                             #66D9EF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #61AFEF
+_highlight                          #61AFEF
+_bold                               #ABB2BF, bold
+_italic                             #ABB2BF, italic
+_underline                          #ABB2BF
+_verbatim                           #E6DB74
+_strike                             #75715E, strike
+_code                               #E6DB74
+_link                               #66D9EF
+_todo                               #61AFEF
+_annotation                         #75715E

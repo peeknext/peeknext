@@ -1,0 +1,36 @@
+[night-owl]
+
+background                          #011627
+foreground                          #D6DEEB
+text_color                          #FFFFFF
+cursor                              #82AAFF
+
+default                             #D6DEEB
+keyword                             #C792EA
+class                               #FFCB8B
+name                                #FFCB8B
+function                            #82AAFF
+string                              #ECC48D
+number                              #F78C6C
+operator                            #D6DEEB
+comment                             #637777
+special                             #7FDBCA
+type                                #FFCB8B
+constant                            #F78C6C
+builtin                             #7FDBCA
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #82AAFF
+_highlight                          #82AAFF
+_bold                               #D6DEEB, bold
+_italic                             #D6DEEB, italic
+_underline                          #D6DEEB
+_verbatim                           #ECC48D
+_strike                             #637777, strike
+_code                               #ECC48D
+_link                               #7FDBCA
+_todo                               #82AAFF
+_annotation                         #637777

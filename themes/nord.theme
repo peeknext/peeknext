@@ -1,0 +1,34 @@
+[nord]
+
+background                          #2E3440
+foreground                          #D8DEE9
+text_color                          #D8DEE9
+cursor                              #88C0D0
+
+default                             #D8DEE9
+keyword                             #B48EAD
+class                               #EBCB8B
+name                                #88C0D0
+function                            #88C0D0
+string                              #A3BE8C
+number                              #D08770
+operator                            #8FBCBB
+comment                             #8892A2, italic
+special                             #BF616A
+type                                #EBCB8B
+constant                            #D08770
+builtin                             #8FBCBB
+
+_error                              #BF616A
+_warning                            #D08770
+_success                            #A3BE8C
+_selection                          #D8DEE9, #434C5E
+_bold                               #D8DEE9, bold
+_italic                             #D8DEE9, italic
+_underline                          #88C0D0
+_verbatim                           #A3BE8C
+_strike                             #8892A2
+_code                               #8FBCBB
+_link                               #88C0D0
+_todo                               #D08770, bold
+_annotation                         #8892A2

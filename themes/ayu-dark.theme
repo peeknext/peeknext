@@ -1,0 +1,32 @@
+[ayu-dark]
+
+background                          #0b0e14
+foreground                          #bfbdb6
+text_color                          #bfbdb6
+cursor                              #bfbdb6
+default                             #bfbdb6
+keyword                             #ff8f40
+class                               #59c2ff
+name                                #ffd580
+function                            #ffd580
+string                              #aad94c
+number                              #d2a6ff
+operator                            #f29e74
+comment                             #626a73
+special                             #95e6cb
+type                                #59c2ff
+constant                            #d2a6ff
+builtin                             #ffb454
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #bfbdb6, #273747
+_bold                               #bfbdb6, bold
+_italic                             #bfbdb6, italic
+_underline                          #bfbdb6
+_verbatim                           #aad94c
+_strike                             #626a73, strike
+_code                               #aad94c
+_link                               #95e6cb
+_todo                               #e3b341
+_annotation                         #626a73

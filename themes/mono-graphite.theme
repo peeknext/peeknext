@@ -1,0 +1,32 @@
+[mono-graphite]
+
+background                          #25272a
+foreground                          #d6d8da
+text_color                          #d6d8da
+cursor                              #f2f3f4
+default                             #d6d8da
+keyword                             #f2f3f4, bold
+class                               #d6d8da
+name                                #d6d8da
+function                            #d6d8da
+string                              #b0b5ba
+number                              #b0b5ba
+operator                            #d6d8da
+comment                             #8b9096, italic
+special                             #b0b5ba
+type                                #d6d8da
+constant                            #b0b5ba
+builtin                             #d6d8da
+_error                              #d39a9a
+_warning                            #c8b58c
+_success                            #a6c1ad
+_selection                          #d6d8da, #44484e
+_bold                               #f2f3f4, bold
+_italic                             #d6d8da, italic
+_underline                          #d6d8da
+_verbatim                           #b0b5ba
+_strike                             #8b9096, strike
+_code                               #b0b5ba
+_link                               #b0b5ba, underline
+_todo                               #f2f3f4, bold
+_annotation                         #8b9096

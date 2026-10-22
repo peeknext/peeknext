@@ -1,0 +1,36 @@
+[one-light]
+
+background                          #FAFAFA
+foreground                          #383A42
+text_color                          #111111
+cursor                              #4078F2
+
+default                             #383A42
+keyword                             #A626A4
+class                               #C18401
+name                                #C18401
+function                            #4078F2
+string                              #50A14F
+number                              #986801
+operator                            #383A42
+comment                             #A0A1A7
+special                             #0184BC
+type                                #C18401
+constant                            #986801
+builtin                             #0184BC
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #4078F2
+_highlight                          #4078F2
+_bold                               #383A42, bold
+_italic                             #383A42, italic
+_underline                          #383A42
+_verbatim                           #50A14F
+_strike                             #A0A1A7, strike
+_code                               #50A14F
+_link                               #0184BC
+_todo                               #4078F2
+_annotation                         #A0A1A7

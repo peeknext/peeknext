@@ -1,0 +1,36 @@
+[vim-default-dark]
+
+background                          #000000
+foreground                          #D0D0D0
+text_color                          #FFFFFF
+cursor                              #5FAFFF
+
+default                             #D0D0D0
+keyword                             #FFFF00
+class                               #00FFFF
+name                                #00FFFF
+function                            #87D7FF
+string                              #FF6060
+number                              #FF80FF
+operator                            #D0D0D0
+comment                             #8080FF
+special                             #5FAFFF
+type                                #00FFFF
+constant                            #FF80FF
+builtin                             #5FAFFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #5FAFFF
+_highlight                          #5FAFFF
+_bold                               #D0D0D0, bold
+_italic                             #D0D0D0, italic
+_underline                          #D0D0D0
+_verbatim                           #FF6060
+_strike                             #8080FF, strike
+_code                               #FF6060
+_link                               #5FAFFF
+_todo                               #5FAFFF
+_annotation                         #8080FF

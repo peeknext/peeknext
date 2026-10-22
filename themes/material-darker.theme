@@ -1,0 +1,36 @@
+[material-darker]
+
+background                          #212121
+foreground                          #EEFFFF
+text_color                          #FFFFFF
+cursor                              #82AAFF
+
+default                             #EEFFFF
+keyword                             #C792EA
+class                               #FFCB6B
+name                                #FFCB6B
+function                            #82AAFF
+string                              #C3E88D
+number                              #F78C6C
+operator                            #EEFFFF
+comment                             #616161
+special                             #89DDFF
+type                                #FFCB6B
+constant                            #F78C6C
+builtin                             #89DDFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #82AAFF
+_highlight                          #82AAFF
+_bold                               #EEFFFF, bold
+_italic                             #EEFFFF, italic
+_underline                          #EEFFFF
+_verbatim                           #C3E88D
+_strike                             #616161, strike
+_code                               #C3E88D
+_link                               #89DDFF
+_todo                               #82AAFF
+_annotation                         #616161

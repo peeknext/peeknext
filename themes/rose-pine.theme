@@ -1,0 +1,34 @@
+[rose-pine]
+
+background                          #191724
+foreground                          #E0DEF4
+text_color                          #E0DEF4
+cursor                              #31748F
+
+default                             #E0DEF4
+keyword                             #C4A7E7
+class                               #E5C890
+name                                #31748F
+function                            #31748F
+string                              #9CCFD8
+number                              #F6C177
+operator                            #9CCFD8
+comment                             #908CAA, italic
+special                             #EB6F92
+type                                #E5C890
+constant                            #F6C177
+builtin                             #9CCFD8
+
+_error                              #EB6F92
+_warning                            #F6C177
+_success                            #9CCFD8
+_selection                          #E0DEF4, #403D52
+_bold                               #E0DEF4, bold
+_italic                             #E0DEF4, italic
+_underline                          #31748F
+_verbatim                           #9CCFD8
+_strike                             #908CAA
+_code                               #9CCFD8
+_link                               #31748F
+_todo                               #F6C177, bold
+_annotation                         #908CAA

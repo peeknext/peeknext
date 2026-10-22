@@ -1,0 +1,22 @@
+[focus]
+
+background                          #15212A
+foreground                          #87919D
+text_color                          #BFC9DB
+cursor                              #26B2B2
+
+default                             #BFC9DB
+keyword                             #E67D74
+class                               #D0C5A9
+name                                #D0C5A9
+function                            #D0C5A9
+string                              #D4BC7D
+number                              #D699B5
+operator                            #E0AD82
+comment                             #87919D
+special                             #26B2B2
+type                                #26B2B2
+constant                            #D699B5
+builtin                             #E0AD82
+
+_highlight                          #D4BC7D

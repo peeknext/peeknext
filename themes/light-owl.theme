@@ -1,0 +1,36 @@
+[light-owl]
+
+background                          #FBFBFB
+foreground                          #403F53
+text_color                          #111111
+cursor                              #2AA298
+
+default                             #403F53
+keyword                             #994CC3
+class                               #4876D6
+name                                #4876D6
+function                            #4876D6
+string                              #4876D6
+number                              #AA0982
+operator                            #403F53
+comment                             #989FB1
+special                             #2AA298
+type                                #4876D6
+constant                            #AA0982
+builtin                             #2AA298
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #2AA298
+_highlight                          #2AA298
+_bold                               #403F53, bold
+_italic                             #403F53, italic
+_underline                          #403F53
+_verbatim                           #4876D6
+_strike                             #989FB1, strike
+_code                               #4876D6
+_link                               #2AA298
+_todo                               #2AA298
+_annotation                         #989FB1

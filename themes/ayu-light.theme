@@ -1,0 +1,32 @@
+[ayu-light]
+
+background                          #fcfcfc
+foreground                          #5c6166
+text_color                          #5c6166
+cursor                              #5c6166
+default                             #5c6166
+keyword                             #fa8d3e
+class                               #399ee6
+name                                #f29718
+function                            #f29718
+string                              #86b300
+number                              #a37acc
+operator                            #ed9366
+comment                             #8a9199
+special                             #4cbf99
+type                                #399ee6
+constant                            #a37acc
+builtin                             #f29718
+_error                              #cf222e
+_warning                            #9a6700
+_success                            #1a7f37
+_selection                          #5c6166, #d8e8fa
+_bold                               #5c6166, bold
+_italic                             #5c6166, italic
+_underline                          #5c6166
+_verbatim                           #86b300
+_strike                             #8a9199, strike
+_code                               #86b300
+_link                               #4cbf99
+_todo                               #9a6700
+_annotation                         #8a9199

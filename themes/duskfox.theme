@@ -1,0 +1,36 @@
+[duskfox]
+
+background                          #232136
+foreground                          #E0DEF4
+text_color                          #FFFFFF
+cursor                              #9CCFD8
+
+default                             #E0DEF4
+keyword                             #C4A7E7
+class                               #F6C177
+name                                #F6C177
+function                            #9CCFD8
+string                              #E0B1CB
+number                              #EA9A97
+operator                            #E0DEF4
+comment                             #817C9C
+special                             #9CCFD8
+type                                #C4A7E7
+constant                            #EA9A97
+builtin                             #9CCFD8
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #9CCFD8
+_highlight                          #9CCFD8
+_bold                               #E0DEF4, bold
+_italic                             #E0DEF4, italic
+_underline                          #E0DEF4
+_verbatim                           #E0B1CB
+_strike                             #817C9C, strike
+_code                               #E0B1CB
+_link                               #9CCFD8
+_todo                               #9CCFD8
+_annotation                         #817C9C

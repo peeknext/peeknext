@@ -1,0 +1,34 @@
+[catppuccin-latte]
+
+background                          #EFF1F5
+foreground                          #4C4F69
+text_color                          #4C4F69
+cursor                              #1E66F5
+
+default                             #4C4F69
+keyword                             #8839EF
+class                               #DF8E1D
+name                                #1E66F5
+function                            #1E66F5
+string                              #40A02B
+number                              #FE640B
+operator                            #179299
+comment                             #8C8FA1, italic
+special                             #D20F39
+type                                #DF8E1D
+constant                            #FE640B
+builtin                             #179299
+
+_error                              #D20F39
+_warning                            #FE640B
+_success                            #40A02B
+_selection                          #4C4F69, #CCD0DA
+_bold                               #4C4F69, bold
+_italic                             #4C4F69, italic
+_underline                          #1E66F5
+_verbatim                           #40A02B
+_strike                             #8C8FA1
+_code                               #179299
+_link                               #1E66F5
+_todo                               #FE640B, bold
+_annotation                         #8C8FA1

@@ -1,0 +1,36 @@
+[zenburn]
+
+background                          #3F3F3F
+foreground                          #DCDCCC
+text_color                          #FFFFFF
+cursor                              #8CD0D3
+
+default                             #DCDCCC
+keyword                             #F0DFAF
+class                               #DFAF8F
+name                                #DFAF8F
+function                            #93E0E3
+string                              #CC9393
+number                              #8CD0D3
+operator                            #DCDCCC
+comment                             #7F9F7F
+special                             #8CD0D3
+type                                #DFDFBF
+constant                            #8CD0D3
+builtin                             #8CD0D3
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #8CD0D3
+_highlight                          #8CD0D3
+_bold                               #DCDCCC, bold
+_italic                             #DCDCCC, italic
+_underline                          #DCDCCC
+_verbatim                           #CC9393
+_strike                             #7F9F7F, strike
+_code                               #CC9393
+_link                               #8CD0D3
+_todo                               #8CD0D3
+_annotation                         #7F9F7F

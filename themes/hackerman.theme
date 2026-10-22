@@ -1,0 +1,32 @@
+[hackerman]
+
+background                          #101015
+foreground                          #E9E9F0
+text_color                          #FFFFFF
+cursor                              #493CFF
+default                             #E9E9F0
+keyword                             #8F87FF, bold
+class                               #B3AEFF
+name                                #9C95FF
+function                            #9C95FF
+string                              #A9D8CF
+number                              #E4B9A0
+operator                            #C5C3D7
+comment                             #77778E, italic
+special                             #8BBDFF
+type                                #B3AEFF
+constant                            #E4B9A0
+builtin                             #8BBDFF
+_error                              #F07A8A
+_warning                            #F2BB76
+_success                            #7DCBB1
+_selection                          #493CFF
+_bold                               #E9E9F0, bold
+_italic                             #A9D8CF, italic
+_underline                          #E9E9F0, underline
+_verbatim                           #A9D8CF
+_strike                             #77778E
+_code                               #A9D8CF
+_link                               #8BBDFF, underline
+_todo                               #F2BB76, bold
+_annotation                         #9291A7

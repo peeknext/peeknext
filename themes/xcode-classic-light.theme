@@ -1,0 +1,36 @@
+[xcode-classic-light]
+
+background                          #FFFFFF
+foreground                          #252525
+text_color                          #111111
+cursor                              #0068B7
+
+default                             #252525
+keyword                             #AD3DA4
+class                               #3F6E74
+name                                #3F6E74
+function                            #2E7D32
+string                              #C41A16
+number                              #1C00CF
+operator                            #252525
+comment                             #5D6C79
+special                             #0068B7
+type                                #3F6E74
+constant                            #1C00CF
+builtin                             #0068B7
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #0068B7
+_highlight                          #0068B7
+_bold                               #252525, bold
+_italic                             #252525, italic
+_underline                          #252525
+_verbatim                           #C41A16
+_strike                             #5D6C79, strike
+_code                               #C41A16
+_link                               #0068B7
+_todo                               #0068B7
+_annotation                         #5D6C79

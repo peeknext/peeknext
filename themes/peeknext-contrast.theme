@@ -1,0 +1,36 @@
+[peeknext-contrast]
+
+background                          #090909
+foreground                          #FFFFFF
+text_color                          #FFFFFF
+cursor                              #62CAFF
+
+default                             #FFFFFF
+keyword                             #FF9A9A
+class                               #FFE19A
+name                                #FFE19A
+function                            #A9F1C5
+string                              #FFF09A
+number                              #E6B6FF
+operator                            #FFFFFF
+comment                             #B9C4CE
+special                             #62CAFF
+type                                #9FE4FF
+constant                            #E6B6FF
+builtin                             #62CAFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #62CAFF
+_highlight                          #62CAFF
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #FFF09A
+_strike                             #B9C4CE, strike
+_code                               #FFF09A
+_link                               #62CAFF
+_todo                               #62CAFF
+_annotation                         #B9C4CE

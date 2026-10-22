@@ -1,0 +1,34 @@
+[everforest-light]
+
+background                          #FDF6E3
+foreground                          #5C6A72
+text_color                          #5C6A72
+cursor                              #3A94C5
+
+default                             #5C6A72
+keyword                             #DF69BA
+class                               #DFA000
+name                                #3A94C5
+function                            #3A94C5
+string                              #8DA101
+number                              #F57D26
+operator                            #35A77C
+comment                             #939F91, italic
+special                             #F85552
+type                                #DFA000
+constant                            #F57D26
+builtin                             #35A77C
+
+_error                              #F85552
+_warning                            #F57D26
+_success                            #8DA101
+_selection                          #5C6A72, #E6E2CC
+_bold                               #5C6A72, bold
+_italic                             #5C6A72, italic
+_underline                          #3A94C5
+_verbatim                           #8DA101
+_strike                             #939F91
+_code                               #35A77C
+_link                               #3A94C5
+_todo                               #F57D26, bold
+_annotation                         #939F91

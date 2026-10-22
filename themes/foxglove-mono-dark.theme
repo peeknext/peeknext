@@ -1,0 +1,21 @@
+[foxglove-mono-dark]
+
+background                          #111111
+foreground                          #EEEEEE
+text_color                          #EEEEEE
+cursor                              #EEEEEE
+default                             #EEEEEE
+keyword                             #EEEEEE
+class                               #EEEEEE
+name                                #EEEEEE
+function                            #EEEEEE
+string                              #BBBBBB
+number                              #BBBBBB
+operator                            #EEEEEE
+comment                             #999999
+special                             #BBBBBB
+type                                #EEEEEE
+constant                            #BBBBBB
+builtin                             #EEEEEE
+_highlight                          #666666
+_link                               #EEEEEE, #EEEEEE

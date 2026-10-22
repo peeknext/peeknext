@@ -1,0 +1,36 @@
+[emacs-tango]
+
+background                          #FFFFFF
+foreground                          #2E3436
+text_color                          #111111
+cursor                              #3465A4
+
+default                             #2E3436
+keyword                             #A40000
+class                               #75507B
+name                                #75507B
+function                            #204A87
+string                              #4E9A06
+number                              #AD7FA8
+operator                            #2E3436
+comment                             #888A85
+special                             #3465A4
+type                                #75507B
+constant                            #AD7FA8
+builtin                             #3465A4
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #3465A4
+_highlight                          #3465A4
+_bold                               #2E3436, bold
+_italic                             #2E3436, italic
+_underline                          #2E3436
+_verbatim                           #4E9A06
+_strike                             #888A85, strike
+_code                               #4E9A06
+_link                               #3465A4
+_todo                               #3465A4
+_annotation                         #888A85

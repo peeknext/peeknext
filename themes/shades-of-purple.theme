@@ -1,0 +1,36 @@
+[shades-of-purple]
+
+background                          #2D2B55
+foreground                          #FFFFFF
+text_color                          #FFFFFF
+cursor                              #FAD000
+
+default                             #FFFFFF
+keyword                             #FF9D00
+class                               #A5FF90
+name                                #A5FF90
+function                            #FAD000
+string                              #A5FF90
+number                              #FF628C
+operator                            #FFFFFF
+comment                             #B362FF
+special                             #9EFFFF
+type                                #9EFFFF
+constant                            #FF628C
+builtin                             #9EFFFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #FAD000
+_highlight                          #FAD000
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #A5FF90
+_strike                             #B362FF, strike
+_code                               #A5FF90
+_link                               #9EFFFF
+_todo                               #FAD000
+_annotation                         #B362FF

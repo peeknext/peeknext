@@ -1,0 +1,32 @@
+[ayu-mirage]
+
+background                          #1f2430
+foreground                          #cccac2
+text_color                          #cccac2
+cursor                              #cccac2
+default                             #cccac2
+keyword                             #ffa759
+class                               #73d0ff
+name                                #ffd580
+function                            #ffd580
+string                              #bae67e
+number                              #d4bfff
+operator                            #f29e74
+comment                             #707a8c
+special                             #95e6cb
+type                                #73d0ff
+constant                            #d4bfff
+builtin                             #ffcc66
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #cccac2, #34415a
+_bold                               #cccac2, bold
+_italic                             #cccac2, italic
+_underline                          #cccac2
+_verbatim                           #bae67e
+_strike                             #707a8c, strike
+_code                               #bae67e
+_link                               #95e6cb
+_todo                               #e3b341
+_annotation                         #707a8c

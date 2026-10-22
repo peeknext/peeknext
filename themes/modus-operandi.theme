@@ -1,0 +1,36 @@
+[modus-operandi]
+
+background                          #FFFFFF
+foreground                          #000000
+text_color                          #111111
+cursor                              #0031A9
+
+default                             #000000
+keyword                             #5317AC
+class                               #005F5F
+name                                #005F5F
+function                            #721045
+string                              #006800
+number                              #8F0075
+operator                            #000000
+comment                             #595959
+special                             #0031A9
+type                                #005F5F
+constant                            #8F0075
+builtin                             #0031A9
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #0031A9
+_highlight                          #0031A9
+_bold                               #000000, bold
+_italic                             #000000, italic
+_underline                          #000000
+_verbatim                           #006800
+_strike                             #595959, strike
+_code                               #006800
+_link                               #0031A9
+_todo                               #0031A9
+_annotation                         #595959

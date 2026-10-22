@@ -1,0 +1,32 @@
+[emacs-dark]
+
+background                          #1D1F21
+foreground                          #D6D6D6
+text_color                          #FFFFFF
+cursor                              #F0F0F0
+default                             #D6D6D6
+keyword                             #B294BB, bold
+class                               #B5BD68
+name                                #81A2BE
+function                            #81A2BE
+string                              #B5BD68
+number                              #DE935F
+operator                            #C5C8C6
+comment                             #969896, italic
+special                             #8ABEB7
+type                                #F0C674
+constant                            #DE935F
+builtin                             #81A2BE
+_error                              #CC6666
+_warning                            #F0C674
+_success                            #B5BD68
+_selection                          #81A2BE
+_bold                               #D6D6D6, bold
+_italic                             #B5BD68, italic
+_underline                          #D6D6D6, underline
+_verbatim                           #B5BD68
+_strike                             #969896
+_code                               #B5BD68
+_link                               #81A2BE, underline
+_todo                               #F0C674, bold
+_annotation                         #969896

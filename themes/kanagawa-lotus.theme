@@ -1,0 +1,36 @@
+[kanagawa-lotus]
+
+background                          #F2ECBC
+foreground                          #545464
+text_color                          #111111
+cursor                              #4D699B
+
+default                             #545464
+keyword                             #624C83
+class                               #77713F
+name                                #77713F
+function                            #4D699B
+string                              #6F894E
+number                              #B35B79
+operator                            #545464
+comment                             #8A8980
+special                             #4D699B
+type                                #597B75
+constant                            #B35B79
+builtin                             #4D699B
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #4D699B
+_highlight                          #4D699B
+_bold                               #545464, bold
+_italic                             #545464, italic
+_underline                          #545464
+_verbatim                           #6F894E
+_strike                             #8A8980, strike
+_code                               #6F894E
+_link                               #4D699B
+_todo                               #4D699B
+_annotation                         #8A8980

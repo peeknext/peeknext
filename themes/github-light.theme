@@ -1,0 +1,32 @@
+[github-light]
+
+background                          #ffffff
+foreground                          #1f2328
+text_color                          #1f2328
+cursor                              #1f2328
+default                             #1f2328
+keyword                             #cf222e
+class                               #953800
+name                                #8250df
+function                            #8250df
+string                              #0a3069
+number                              #0550ae
+operator                            #1f2328
+comment                             #6e7781
+special                             #116329
+type                                #953800
+constant                            #0550ae
+builtin                             #8250df
+_error                              #cf222e
+_warning                            #9a6700
+_success                            #1a7f37
+_selection                          #1f2328, #dbeafe
+_bold                               #1f2328, bold
+_italic                             #1f2328, italic
+_underline                          #1f2328
+_verbatim                           #0a3069
+_strike                             #6e7781, strike
+_code                               #0a3069
+_link                               #116329
+_todo                               #9a6700
+_annotation                         #6e7781

@@ -1,0 +1,36 @@
+[darcula]
+
+background                          #2B2B2B
+foreground                          #A9B7C6
+text_color                          #FFFFFF
+cursor                              #6897BB
+
+default                             #A9B7C6
+keyword                             #CC7832
+class                               #A9B7C6
+name                                #A9B7C6
+function                            #FFC66D
+string                              #6A8759
+number                              #6897BB
+operator                            #A9B7C6
+comment                             #808080
+special                             #9876AA
+type                                #A9B7C6
+constant                            #6897BB
+builtin                             #9876AA
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #6897BB
+_highlight                          #6897BB
+_bold                               #A9B7C6, bold
+_italic                             #A9B7C6, italic
+_underline                          #A9B7C6
+_verbatim                           #6A8759
+_strike                             #808080, strike
+_code                               #6A8759
+_link                               #9876AA
+_todo                               #6897BB
+_annotation                         #808080

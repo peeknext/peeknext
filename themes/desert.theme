@@ -1,0 +1,36 @@
+[desert]
+
+background                          #333333
+foreground                          #F0E7D5
+text_color                          #FFFFFF
+cursor                              #FFA500
+
+default                             #F0E7D5
+keyword                             #F0E68C
+class                               #87CEEB
+name                                #87CEEB
+function                            #98FB98
+string                              #FFA0A0
+number                              #FFDEAD
+operator                            #F0E7D5
+comment                             #87AFAF
+special                             #FFA500
+type                                #87CEEB
+constant                            #FFDEAD
+builtin                             #FFA500
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #FFA500
+_highlight                          #FFA500
+_bold                               #F0E7D5, bold
+_italic                             #F0E7D5, italic
+_underline                          #F0E7D5
+_verbatim                           #FFA0A0
+_strike                             #87AFAF, strike
+_code                               #FFA0A0
+_link                               #FFA500
+_todo                               #FFA500
+_annotation                         #87AFAF

@@ -1,0 +1,34 @@
+[solarized-light]
+
+background                          #FDF6E3
+foreground                          #657B83
+text_color                          #657B83
+cursor                              #268BD2
+
+default                             #657B83
+keyword                             #6C71C4
+class                               #B58900
+name                                #268BD2
+function                            #268BD2
+string                              #859900
+number                              #CB4B16
+operator                            #2AA198
+comment                             #93A1A1, italic
+special                             #DC322F
+type                                #B58900
+constant                            #CB4B16
+builtin                             #2AA198
+
+_error                              #DC322F
+_warning                            #CB4B16
+_success                            #859900
+_selection                          #657B83, #EEE8D5
+_bold                               #657B83, bold
+_italic                             #657B83, italic
+_underline                          #268BD2
+_verbatim                           #859900
+_strike                             #93A1A1
+_code                               #2AA198
+_link                               #268BD2
+_todo                               #CB4B16, bold
+_annotation                         #93A1A1

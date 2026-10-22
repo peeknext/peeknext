@@ -1,0 +1,36 @@
+[tomorrow-night-blue]
+
+background                          #002451
+foreground                          #FFFFFF
+text_color                          #FFFFFF
+cursor                              #BBDAFF
+
+default                             #FFFFFF
+keyword                             #EBBBFF
+class                               #FFEEAD
+name                                #FFEEAD
+function                            #BBDAFF
+string                              #D1F1A9
+number                              #FFC58F
+operator                            #FFFFFF
+comment                             #7285B7
+special                             #BBDAFF
+type                                #99FFFF
+constant                            #FFC58F
+builtin                             #BBDAFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #BBDAFF
+_highlight                          #BBDAFF
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #D1F1A9
+_strike                             #7285B7, strike
+_code                               #D1F1A9
+_link                               #BBDAFF
+_todo                               #BBDAFF
+_annotation                         #7285B7

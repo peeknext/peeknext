@@ -1,0 +1,32 @@
+[mono-ink]
+
+background                          #0b0b0b
+foreground                          #e8e8e8
+text_color                          #e8e8e8
+cursor                              #ffffff
+default                             #e8e8e8
+keyword                             #ffffff, bold
+class                               #e8e8e8
+name                                #e8e8e8
+function                            #e8e8e8
+string                              #b5b5b5
+number                              #b5b5b5
+operator                            #e8e8e8
+comment                             #777777, italic
+special                             #b5b5b5
+type                                #e8e8e8
+constant                            #b5b5b5
+builtin                             #e8e8e8
+_error                              #d1a0a0
+_warning                            #cfb68a
+_success                            #a5c5aa
+_selection                          #e8e8e8, #343434
+_bold                               #ffffff, bold
+_italic                             #e8e8e8, italic
+_underline                          #e8e8e8
+_verbatim                           #b5b5b5
+_strike                             #777777, strike
+_code                               #b5b5b5
+_link                               #b5b5b5, underline
+_todo                               #ffffff, bold
+_annotation                         #777777

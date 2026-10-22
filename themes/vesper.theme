@@ -1,0 +1,36 @@
+[vesper]
+
+background                          #101010
+foreground                          #E7E7E7
+text_color                          #FFFFFF
+cursor                              #FFC799
+
+default                             #E7E7E7
+keyword                             #FFC799
+class                               #E7E7E7
+name                                #E7E7E7
+function                            #A0A0A0
+string                              #99FFE4
+number                              #FFC799
+operator                            #C1C1C1
+comment                             #747474
+special                             #FFC799
+type                                #E7E7E7
+constant                            #FFC799
+builtin                             #FFC799
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #FFC799
+_highlight                          #FFC799
+_bold                               #E7E7E7, bold
+_italic                             #E7E7E7, italic
+_underline                          #E7E7E7
+_verbatim                           #99FFE4
+_strike                             #747474, strike
+_code                               #99FFE4
+_link                               #FFC799
+_todo                               #FFC799
+_annotation                         #747474

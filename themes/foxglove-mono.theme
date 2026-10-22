@@ -1,0 +1,21 @@
+[foxglove-mono]
+
+background                          #FFFFFF
+foreground                          #000000
+text_color                          #000000
+cursor                              #000000
+default                             #000000
+keyword                             #000000
+class                               #000000
+name                                #000000
+function                            #000000
+string                              #444444
+number                              #444444
+operator                            #000000
+comment                             #666666
+special                             #444444
+type                                #000000
+constant                            #444444
+builtin                             #000000
+_highlight                          #BBBBBB
+_link                               #000000, #000000

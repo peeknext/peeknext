@@ -1,0 +1,36 @@
+[tomorrow-night-eighties]
+
+background                          #2D2D2D
+foreground                          #CCCCCC
+text_color                          #FFFFFF
+cursor                              #6699CC
+
+default                             #CCCCCC
+keyword                             #CC99CC
+class                               #FFCC66
+name                                #FFCC66
+function                            #6699CC
+string                              #99CC99
+number                              #F99157
+operator                            #CCCCCC
+comment                             #999999
+special                             #66CCCC
+type                                #FFCC66
+constant                            #F99157
+builtin                             #66CCCC
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #6699CC
+_highlight                          #6699CC
+_bold                               #CCCCCC, bold
+_italic                             #CCCCCC, italic
+_underline                          #CCCCCC
+_verbatim                           #99CC99
+_strike                             #999999, strike
+_code                               #99CC99
+_link                               #66CCCC
+_todo                               #6699CC
+_annotation                         #999999

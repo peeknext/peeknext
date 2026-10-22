@@ -1,0 +1,34 @@
+[tokyo-night]
+
+background                          #1A1B26
+foreground                          #C0CAF5
+text_color                          #C0CAF5
+cursor                              #7AA2F7
+
+default                             #C0CAF5
+keyword                             #BB9AF7
+class                               #E0AF68
+name                                #7AA2F7
+function                            #7AA2F7
+string                              #9ECE6A
+number                              #FF9E64
+operator                            #7DCFFF
+comment                             #737AA2, italic
+special                             #F7768E
+type                                #E0AF68
+constant                            #FF9E64
+builtin                             #7DCFFF
+
+_error                              #F7768E
+_warning                            #FF9E64
+_success                            #9ECE6A
+_selection                          #C0CAF5, #33467C
+_bold                               #C0CAF5, bold
+_italic                             #C0CAF5, italic
+_underline                          #7AA2F7
+_verbatim                           #9ECE6A
+_strike                             #737AA2
+_code                               #7DCFFF
+_link                               #7AA2F7
+_todo                               #FF9E64, bold
+_annotation                         #737AA2

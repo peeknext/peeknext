@@ -1,0 +1,34 @@
+[one-dark]
+
+background                          #282C34
+foreground                          #ABB2BF
+text_color                          #ABB2BF
+cursor                              #61AFEF
+
+default                             #ABB2BF
+keyword                             #C678DD
+class                               #E5C07B
+name                                #61AFEF
+function                            #61AFEF
+string                              #98C379
+number                              #D19A66
+operator                            #56B6C2
+comment                             #7F848E, italic
+special                             #E06C75
+type                                #E5C07B
+constant                            #D19A66
+builtin                             #56B6C2
+
+_error                              #E06C75
+_warning                            #D19A66
+_success                            #98C379
+_selection                          #ABB2BF, #3E4451
+_bold                               #ABB2BF, bold
+_italic                             #ABB2BF, italic
+_underline                          #61AFEF
+_verbatim                           #98C379
+_strike                             #7F848E
+_code                               #56B6C2
+_link                               #61AFEF
+_todo                               #D19A66, bold
+_annotation                         #7F848E

@@ -1,0 +1,32 @@
+[mono-dark]
+
+background                          #171717
+foreground                          #dedede
+text_color                          #dedede
+cursor                              #f5f5f5
+default                             #dedede
+keyword                             #f5f5f5, bold
+class                               #dedede
+name                                #dedede
+function                            #dedede
+string                              #bcbcbc
+number                              #bcbcbc
+operator                            #dedede
+comment                             #858585, italic
+special                             #bcbcbc
+type                                #dedede
+constant                            #bcbcbc
+builtin                             #dedede
+_error                              #e09a9a
+_warning                            #d5bd91
+_success                            #9dc6aa
+_selection                          #dedede, #373737
+_bold                               #f5f5f5, bold
+_italic                             #dedede, italic
+_underline                          #dedede
+_verbatim                           #bcbcbc
+_strike                             #858585, strike
+_code                               #bcbcbc
+_link                               #bcbcbc, underline
+_todo                               #f5f5f5, bold
+_annotation                         #858585

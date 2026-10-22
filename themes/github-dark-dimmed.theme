@@ -1,0 +1,32 @@
+[github-dark-dimmed]
+
+background                          #22272e
+foreground                          #adbac7
+text_color                          #adbac7
+cursor                              #adbac7
+default                             #adbac7
+keyword                             #f47067
+class                               #dbb7ff
+name                                #dcbdfb
+function                            #dcbdfb
+string                              #96d0ff
+number                              #6cb6ff
+operator                            #adbac7
+comment                             #768390
+special                             #8ddb8c
+type                                #f69d50
+constant                            #6cb6ff
+builtin                             #dcbdfb
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #adbac7, #373e47
+_bold                               #adbac7, bold
+_italic                             #adbac7, italic
+_underline                          #adbac7
+_verbatim                           #96d0ff
+_strike                             #768390, strike
+_code                               #96d0ff
+_link                               #8ddb8c
+_todo                               #e3b341
+_annotation                         #768390

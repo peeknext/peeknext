@@ -1,0 +1,36 @@
+[emacs-leuven]
+
+background                          #FFFFFF
+foreground                          #333333
+text_color                          #111111
+cursor                              #0066CC
+
+default                             #333333
+keyword                             #A020F0
+class                               #005A9C
+name                                #005A9C
+function                            #0066CC
+string                              #008000
+number                              #B452CD
+operator                            #333333
+comment                             #8D8D84
+special                             #0066CC
+type                                #005A9C
+constant                            #B452CD
+builtin                             #0066CC
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #0066CC
+_highlight                          #0066CC
+_bold                               #333333, bold
+_italic                             #333333, italic
+_underline                          #333333
+_verbatim                           #008000
+_strike                             #8D8D84, strike
+_code                               #008000
+_link                               #0066CC
+_todo                               #0066CC
+_annotation                         #8D8D84

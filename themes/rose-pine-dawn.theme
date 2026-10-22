@@ -1,0 +1,34 @@
+[rose-pine-dawn]
+
+background                          #FAF4ED
+foreground                          #575279
+text_color                          #575279
+cursor                              #286983
+
+default                             #575279
+keyword                             #907AA9
+class                               #D7827E
+name                                #286983
+function                            #286983
+string                              #56949F
+number                              #EA9D34
+operator                            #56949F
+comment                             #9893A5, italic
+special                             #B4637A
+type                                #D7827E
+constant                            #EA9D34
+builtin                             #56949F
+
+_error                              #B4637A
+_warning                            #EA9D34
+_success                            #56949F
+_selection                          #575279, #DFDAD9
+_bold                               #575279, bold
+_italic                             #575279, italic
+_underline                          #286983
+_verbatim                           #56949F
+_strike                             #9893A5
+_code                               #56949F
+_link                               #286983
+_todo                               #EA9D34, bold
+_annotation                         #9893A5

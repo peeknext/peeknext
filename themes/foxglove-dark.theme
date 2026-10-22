@@ -1,0 +1,21 @@
+[foxglove-dark]
+
+background                          #22211F
+foreground                          #D2D2CF
+text_color                          #D2D2CF
+cursor                              #DB919D
+default                             #D2D2CF
+keyword                             #D2D2CF
+class                               #D2D2CF
+name                                #D2D2CF
+function                            #98BDFE
+string                              #DB919D
+number                              #DB919D
+operator                            #D2D2CF
+comment                             #878F70
+special                             #CB9E5C
+type                                #8DAABB
+constant                            #CB9E5C
+builtin                             #D2D2CF
+_highlight                          #6C5019
+_link                               #98BDFE, #98BDFE

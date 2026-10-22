@@ -1,0 +1,36 @@
+[modus-vivendi]
+
+background                          #000000
+foreground                          #FFFFFF
+text_color                          #FFFFFF
+cursor                              #79A8FF
+
+default                             #FFFFFF
+keyword                             #B6A0FF
+class                               #6AE4B9
+name                                #6AE4B9
+function                            #FEACD0
+string                              #44BC44
+number                              #F78FE7
+operator                            #FFFFFF
+comment                             #989898
+special                             #79A8FF
+type                                #6AE4B9
+constant                            #F78FE7
+builtin                             #79A8FF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #79A8FF
+_highlight                          #79A8FF
+_bold                               #FFFFFF, bold
+_italic                             #FFFFFF, italic
+_underline                          #FFFFFF
+_verbatim                           #44BC44
+_strike                             #989898, strike
+_code                               #44BC44
+_link                               #79A8FF
+_todo                               #79A8FF
+_annotation                         #989898

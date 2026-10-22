@@ -1,0 +1,32 @@
+[mono-silver]
+
+background                          #e8eaec
+foreground                          #303338
+text_color                          #303338
+cursor                              #171a1e
+default                             #303338
+keyword                             #171a1e, bold
+class                               #303338
+name                                #303338
+function                            #303338
+string                              #555b62
+number                              #555b62
+operator                            #303338
+comment                             #81868d, italic
+special                             #555b62
+type                                #303338
+constant                            #555b62
+builtin                             #303338
+_error                              #aa6565
+_warning                            #92783f
+_success                            #557f65
+_selection                          #555b62
+_bold                               #171a1e, bold
+_italic                             #303338, italic
+_underline                          #303338
+_verbatim                           #555b62
+_strike                             #81868d, strike
+_code                               #555b62
+_link                               #555b62, underline
+_todo                               #171a1e, bold
+_annotation                         #81868d

@@ -1,0 +1,36 @@
+[dayfox]
+
+background                          #F6F2EE
+foreground                          #3D2B5A
+text_color                          #111111
+cursor                              #287980
+
+default                             #3D2B5A
+keyword                             #955F61
+class                               #618774
+name                                #618774
+function                            #2848A9
+string                              #AC5402
+number                              #A440B5
+operator                            #3D2B5A
+comment                             #837A72
+special                             #287980
+type                                #6E33CE
+constant                            #A440B5
+builtin                             #287980
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #287980
+_highlight                          #287980
+_bold                               #3D2B5A, bold
+_italic                             #3D2B5A, italic
+_underline                          #3D2B5A
+_verbatim                           #AC5402
+_strike                             #837A72, strike
+_code                               #AC5402
+_link                               #287980
+_todo                               #287980
+_annotation                         #837A72

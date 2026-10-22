@@ -1,0 +1,32 @@
+[github-dark]
+
+background                          #0d1117
+foreground                          #e6edf3
+text_color                          #e6edf3
+cursor                              #e6edf3
+default                             #e6edf3
+keyword                             #ff7b72
+class                               #ffa657
+name                                #d2a8ff
+function                            #d2a8ff
+string                              #a5d6ff
+number                              #79c0ff
+operator                            #e6edf3
+comment                             #8b949e
+special                             #7ee787
+type                                #ffa657
+constant                            #79c0ff
+builtin                             #d2a8ff
+_error                              #f47067
+_warning                            #e3b341
+_success                            #56d364
+_selection                          #e6edf3, #264f78
+_bold                               #e6edf3, bold
+_italic                             #e6edf3, italic
+_underline                          #e6edf3
+_verbatim                           #a5d6ff
+_strike                             #8b949e, strike
+_code                               #a5d6ff
+_link                               #7ee787
+_todo                               #e3b341
+_annotation                         #8b949e

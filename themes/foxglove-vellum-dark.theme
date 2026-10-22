@@ -1,0 +1,21 @@
+[foxglove-vellum-dark]
+
+background                          #25211A
+foreground                          #D6D1CA
+text_color                          #D6D1CA
+cursor                              #DB919D
+default                             #D6D1CA
+keyword                             #D6D1CA
+class                               #D6D1CA
+name                                #D6D1CA
+function                            #98BDFE
+string                              #DB919D
+number                              #DB919D
+operator                            #D6D1CA
+comment                             #878F70
+special                             #CB9E5C
+type                                #8DAABB
+constant                            #CB9E5C
+builtin                             #D6D1CA
+_highlight                          #6C5019
+_link                               #98BDFE, #98BDFE

@@ -1,0 +1,36 @@
+[textmate-blackboard]
+
+background                          #0C1021
+foreground                          #F8F8F8
+text_color                          #FFFFFF
+cursor                              #8DA6CE
+
+default                             #F8F8F8
+keyword                             #FBDE2D
+class                               #FF6400
+name                                #FF6400
+function                            #8DA6CE
+string                              #61CE3C
+number                              #D8FA3C
+operator                            #F8F8F8
+comment                             #AEAEAE
+special                             #8DA6CE
+type                                #FF6400
+constant                            #D8FA3C
+builtin                             #8DA6CE
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #8DA6CE
+_highlight                          #8DA6CE
+_bold                               #F8F8F8, bold
+_italic                             #F8F8F8, italic
+_underline                          #F8F8F8
+_verbatim                           #61CE3C
+_strike                             #AEAEAE, strike
+_code                               #61CE3C
+_link                               #8DA6CE
+_todo                               #8DA6CE
+_annotation                         #AEAEAE

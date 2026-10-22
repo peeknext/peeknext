@@ -1,0 +1,32 @@
+[mono-warm-dark]
+
+background                          #201e1b
+foreground                          #dfd9d0
+text_color                          #dfd9d0
+cursor                              #f1e9dc
+default                             #dfd9d0
+keyword                             #f1e9dc, bold
+class                               #dfd9d0
+name                                #dfd9d0
+function                            #dfd9d0
+string                              #bdb5a9
+number                              #bdb5a9
+operator                            #dfd9d0
+comment                             #938b80, italic
+special                             #bdb5a9
+type                                #dfd9d0
+constant                            #bdb5a9
+builtin                             #dfd9d0
+_error                              #d4a09b
+_warning                            #d2ba8b
+_success                            #acc2a1
+_selection                          #bdb5a9
+_bold                               #f1e9dc, bold
+_italic                             #dfd9d0, italic
+_underline                          #dfd9d0
+_verbatim                           #bdb5a9
+_strike                             #938b80, strike
+_code                               #bdb5a9
+_link                               #bdb5a9, underline
+_todo                               #f1e9dc, bold
+_annotation                         #938b80

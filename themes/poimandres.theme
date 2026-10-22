@@ -1,0 +1,36 @@
+[poimandres]
+
+background                          #1B1E28
+foreground                          #E4F0FB
+text_color                          #FFFFFF
+cursor                              #89DDFF
+
+default                             #E4F0FB
+keyword                             #D6A2E8
+class                               #A6ACCD
+name                                #A6ACCD
+function                            #ADD7FF
+string                              #5DE4C7
+number                              #F8C8DC
+operator                            #E4F0FB
+comment                             #767C9D
+special                             #89DDFF
+type                                #91B4D5
+constant                            #F8C8DC
+builtin                             #89DDFF
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #89DDFF
+_highlight                          #89DDFF
+_bold                               #E4F0FB, bold
+_italic                             #E4F0FB, italic
+_underline                          #E4F0FB
+_verbatim                           #5DE4C7
+_strike                             #767C9D, strike
+_code                               #5DE4C7
+_link                               #89DDFF
+_todo                               #89DDFF
+_annotation                         #767C9D

@@ -1,0 +1,36 @@
+[oxocarbon-light]
+
+background                          #FFFFFF
+foreground                          #161616
+text_color                          #111111
+cursor                              #0F62FE
+
+default                             #161616
+keyword                             #8A3FFC
+class                               #D12771
+name                                #D12771
+function                            #0072C3
+string                              #198038
+number                              #9F1853
+operator                            #161616
+comment                             #777777
+special                             #0F62FE
+type                                #005D5D
+constant                            #9F1853
+builtin                             #0F62FE
+
+_error                              #E05C65
+_warning                            #D9A441
+_success                            #6DAF83
+
+_selection                          #0F62FE
+_highlight                          #0F62FE
+_bold                               #161616, bold
+_italic                             #161616, italic
+_underline                          #161616
+_verbatim                           #198038
+_strike                             #777777, strike
+_code                               #198038
+_link                               #0F62FE
+_todo                               #0F62FE
+_annotation                         #777777
