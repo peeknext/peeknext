@@ -47,7 +47,7 @@ See the [documentation](https://peeknext.com/docs/) for more.
 Peeknext uses plain-text configuration files for settings, keybindings, themes, and custom Python commands.
 
 - [Default configuration](./.hackerman) — Settings and keybindings.
-- [Default scripts](./hackerman-scripts) — Python commands and examples.
+- [Default scripts](./.hackerman-scripts) — Python commands and examples.
 
 See the [documentation](https://peeknext.com/docs/) for customization details and [API reference](https://peeknext.com/api/) for Python scripting.
 
