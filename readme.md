@@ -1,5 +1,5 @@
-<p align="center" style="max-height:240px;">
-    <img src="./appicon.png" alt="Peeknext">
+<p align="center">
+    <img src="./appicon.png" alt="Peeknext" width="128">
 </p>
 
 <p align="center">
