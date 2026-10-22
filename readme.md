@@ -1,5 +1,5 @@
+![Peeknext GitHub Banner](./github_banner.png)
 
-```html
 <p align="center">
     <img src="./github_banner.png" alt="Peeknext">
 </p>
@@ -15,7 +15,6 @@
 <p align="center">
     A fast, local, and scriptable text editor for Mac.
 </p>
-```
 
 ## About
 
