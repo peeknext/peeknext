@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./appicon.png" alt="Peeknext" width="128">
+    <img src="./assets/appicon.png" alt="Peeknext" width="128">
 </p>
 
 <p align="center">
@@ -41,6 +41,15 @@ Download the [latest release](https://github.com/peeknext/peeknext/releases/late
 | `⌘⇧,`     | Open scripts file         |
 
 See the [documentation](https://peeknext.com/docs/) for more.
+
+## Configuration & scripting
+
+Peeknext uses plain-text configuration files for settings, keybindings, themes, and custom Python commands.
+
+- [Default configuration](./.hackerman) — Settings and keybindings.
+- [Default scripts](./hackerman-scripts) — Python commands and examples.
+
+See the [documentation](https://peeknext.com/docs/) for customization details and [API reference](https://peeknext.com/api/) for Python scripting.
 
 ## Performance
 
