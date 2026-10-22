@@ -1,10 +1,6 @@
 ![Peeknext GitHub Banner](./github_banner.png)
 
 <p align="center">
-    <img src="./github_banner.png" alt="Peeknext">
-</p>
-
-<p align="center">
     <a href="https://github.com/peeknext/peeknext/releases/latest">Download</a>
     &nbsp;·&nbsp;
     <a href="https://peeknext.com/docs/">Documentation</a>
