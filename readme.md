@@ -1,4 +1,6 @@
-![Peeknext GitHub Banner](./github_banner.png)
+<p align="center" style="max-height:240px;">
+    <img src="./appicon.png" alt="Peeknext">
+</p>
 
 <p align="center">
     <a href="https://github.com/peeknext/peeknext/releases/latest">Download</a>
